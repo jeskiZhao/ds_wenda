@@ -1,0 +1,26 @@
+<include file="Common/searchtop" />
+	<!-- 搜索顶部结束 -->
+	<!-- 搜索框 -->
+        <div id="zhong">
+	<div class="search_box">
+            <form action="__MODULE__/Search/tpfenci" method="post">
+		<input type="text" name="wen" class="searchInput" value="{$wen}" />
+		<input type="submit" value="搜索答案" class="sub"/>
+            </form>
+		<a href="__MODULE__/Ask/index">我要提问</a>
+	</div>
+	<!-- 搜索框结束 -->
+	<!-- 搜索内容 -->
+	<div class="searcont" id="di">
+		<ul>
+			<li class="title">抱歉，暂时没有找到与{$wen}相关的问题，您可以： </li>
+			<li><a href="__MODULE__/Ask/index">到得声校园问答提问</a></li>
+			<li>换一种方式提问</li>
+		</ul>
+
+	</div>
+	<!-- 搜索内容结束 -->
+        </div>
+
+<!-- 底部 -->
+<include file="Common/bottom" />

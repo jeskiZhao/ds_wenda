@@ -1,0 +1,129 @@
+[ 2015-12-05T10:54:46+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/3
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS _type=LEFT,category.name AS name FROM ds_ask ask  JOIN ds_category category O' at line 1
+ [ SQL语句 ] : SELECT ask.id AS id,ask.content AS content,ask.reward AS reward,ask.time AS time,ask.answer AS answer,ask._type=LEFT AS _type=LEFT,category.name AS name FROM ds_ask ask  JOIN ds_category category ON ask.cid=category.id WHERE `cid` IN ('10','11','3') ORDER BY ask.time desc 
+
+[ 2015-12-05T13:57:10+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/qid/11
+ERR: 模板不存在:../Application/Home/View/Question/index.html
+
+[ 2015-12-05T13:59:36+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/qid/11
+ERR: XML标签语法错误
+
+[ 2015-12-05T14:00:25+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/qid/11
+ERR: XML标签语法错误
+
+[ 2015-12-05T14:00:38+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/qid/11
+ERR: XML标签语法错误
+
+[ 2015-12-05T14:01:50+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/qid/11
+ERR: XML标签语法错误
+
+[ 2015-12-05T14:01:50+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/qid/11
+ERR: XML标签语法错误
+
+[ 2015-12-05T14:01:54+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/
+ERR: XML标签语法错误
+
+[ 2015-12-05T14:01:55+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/
+ERR: XML标签语法错误
+
+[ 2015-12-05T14:01:56+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/
+ERR: XML标签语法错误
+
+[ 2015-12-05T14:01:57+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/
+ERR: XML标签语法错误
+
+[ 2015-12-05T14:01:57+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/
+ERR: XML标签语法错误
+
+[ 2015-12-05T15:21:18+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/qid/11
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT ask.id AS id,ask.content AS content,ask.reward AS reward,ask.time AS time,ask.answer AS answer,category.name AS name FROM ds_ask ask LEFT JOIN ds_category category ON ask.cid=category.id WHERE ( id=11 ) 
+
+[ 2015-12-05T15:23:23+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/qid/11
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT ask.id AS id,ask.content AS content,ask.reward AS reward,ask.time AS time,ask.answer AS answer,category.name AS name FROM ds_ask ask LEFT JOIN ds_category category ON ask.cid=category.id WHERE ( id=1 ) 
+
+[ 2015-12-05T15:23:31+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/qid/4
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT ask.id AS id,ask.content AS content,ask.reward AS reward,ask.time AS time,ask.answer AS answer,category.name AS name FROM ds_ask ask LEFT JOIN ds_category category ON ask.cid=category.id WHERE ( id=1 ) 
+
+[ 2015-12-05T15:26:45+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/qid/11
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT ask.id AS id,ask.content AS content,ask.reward AS reward,ask.time AS time,ask.answer AS answer,category.name AS name FROM ds_ask ask LEFT JOIN ds_category category ON ask.cid=category.id WHERE ( id=1 ) 
+
+[ 2015-12-05T15:44:04+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/1
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT ask.id AS id,ask.content AS content,ask.reward AS reward,ask.time AS time,ask.answer AS answer,category.name AS name FROM ds_ask ask LEFT JOIN ds_category category ON ask.cid=category.id WHERE ( id=1 ) ORDER BY ask.time desc 
+
+[ 2015-12-05T15:45:04+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/qid/4
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT ask.id AS id,ask.content AS content,ask.reward AS reward,ask.time AS time,ask.answer AS answer,category.name AS name FROM ds_ask ask LEFT JOIN ds_category category ON ask.cid=category.id WHERE ( id=1 ) 
+
+[ 2015-12-05T15:45:39+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/3
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT ask.id AS id,ask.content AS content,ask.reward AS reward,ask.time AS time,ask.answer AS answer,category.name AS name FROM ds_ask ask LEFT JOIN ds_category category ON ask.cid=category.id WHERE ( id=4 ) ORDER BY ask.time desc 
+
+[ 2015-12-05T15:46:55+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/qid/4
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT ask.id AS id,ask.content AS content,ask.reward AS reward,ask.time AS time,ask.answer AS answer,category.name AS name FROM ds_ask ask LEFT JOIN ds_category category ON ask.cid=category.id WHERE ( id=1 ) 
+
+[ 2015-12-05T15:46:57+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/qid/4
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT ask.id AS id,ask.content AS content,ask.reward AS reward,ask.time AS time,ask.answer AS answer,category.name AS name FROM ds_ask ask LEFT JOIN ds_category category ON ask.cid=category.id WHERE ( id=1 ) 
+
+[ 2015-12-05T15:46:58+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/qid/4
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT ask.id AS id,ask.content AS content,ask.reward AS reward,ask.time AS time,ask.answer AS answer,category.name AS name FROM ds_ask ask LEFT JOIN ds_category category ON ask.cid=category.id WHERE ( id=1 ) 
+
+[ 2015-12-05T15:47:36+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/qid/4
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT ask.id AS id,ask.content AS content,ask.reward AS reward,ask.time AS time,ask.answer AS answer,category.name AS name FROM ds_ask ask LEFT JOIN ds_category category ON ask.cid=category.id WHERE ( id=1 ) 
+
+[ 2015-12-05T15:48:20+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/qid/4
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT ask.id AS id,ask.content AS content FROM ds_ask ask LEFT JOIN ds_category category ON ask.cid=category.id WHERE ( id=1 ) 
+
+[ 2015-12-05T15:48:32+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/qid/4
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT ask.id AS id,ask.content AS content FROM ds_ask ask LEFT JOIN ds_category category ON ask.cid=category.id WHERE ( id=1 ) 
+
+[ 2015-12-05T15:48:34+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/qid/4
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT ask.id AS id,ask.content AS content FROM ds_ask ask LEFT JOIN ds_category category ON ask.cid=category.id WHERE ( id=1 ) 
+
+[ 2015-12-05T16:27:44+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/qid/11
+ERR: 1054:Unknown column 'user.username' in 'field list'
+ [ SQL语句 ] : SELECT ask.id AS id,ask.content AS content,ask.reward AS reward,ask.solve AS solve,ask.time AS time,ask.cid AS cid,ask.answer AS answer,user.id AS uid,user.username AS username,user.exp AS exp FROM ds_ask ask LEFT JOIN ds_user user ON ask.uid = user.id WHERE ( ask.id=11 ) 
+
+[ 2015-12-05T16:59:55+08:00 ] 127.0.0.1 /go/index.php/Home/List/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-05T17:00:37+08:00 ] 127.0.0.1 /go/index.php/Home/List/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-05T17:01:36+08:00 ] 127.0.0.1 /go/index.php/Home/List/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-05T17:02:14+08:00 ] 127.0.0.1 /go/index.php/Home/List/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-05T17:03:05+08:00 ] 127.0.0.1 /go/index.php/Home/List/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-05T17:04:11+08:00 ] 127.0.0.1 /go/index.php/Home/List/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-05T17:04:12+08:00 ] 127.0.0.1 /go/index.php/Home/List/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-05T17:04:13+08:00 ] 127.0.0.1 /go/index.php/Home/List/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+

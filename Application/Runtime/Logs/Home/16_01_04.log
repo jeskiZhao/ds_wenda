@@ -1,0 +1,30 @@
+[ 2016-01-04T09:23:11+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/getCate?pid=34
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001624s ]
+SQL: SHOW COLUMNS FROM `ds_category` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `ds_category` WHERE ( pid=34 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001415s ]
+
+[ 2016-01-04T09:23:12+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/getCate?pid=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+SQL: SHOW COLUMNS FROM `ds_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ds_category` WHERE ( pid=37 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001308s ]
+
+[ 2016-01-04T09:23:13+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/getCate?pid=62
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `ds_category` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `ds_category` WHERE ( pid=62 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001516s ]
+

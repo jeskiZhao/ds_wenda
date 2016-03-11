@@ -1,0 +1,201 @@
+[ 2015-11-26T09:17:53+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2015-11-26T14:15:00+08:00 ] 127.0.0.1 /go/index.php/Admin/Ask/unsolve
+ERR: 非法操作:unsolve
+
+[ 2015-11-26T14:15:03+08:00 ] 127.0.0.1 /go/index.php/Admin/Ask/zero
+ERR: 非法操作:zero
+
+[ 2015-11-26T14:29:49+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/home
+ERR: 非法操作:home
+
+[ 2015-11-26T14:32:01+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/home
+ERR: 非法操作:home
+
+[ 2015-11-26T14:32:31+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/home
+ERR: 非法操作:home
+
+[ 2015-11-26T14:32:32+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/home
+ERR: 非法操作:home
+
+[ 2015-11-26T14:33:51+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/home
+ERR: 非法操作:home
+
+[ 2015-11-26T14:33:52+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/home
+ERR: 非法操作:home
+
+[ 2015-11-26T14:35:41+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/home
+ERR: 非法操作:home
+
+[ 2015-11-26T14:35:46+08:00 ] 127.0.0.1 /go/index.php/Admin/Ask/index
+ERR: 非法操作:index
+
+[ 2015-11-26T14:36:21+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/home
+ERR: 非法操作:home
+
+[ 2015-11-26T14:36:23+08:00 ] 127.0.0.1 /go/index.php/Admin/Ask/index
+ERR: 非法操作:index
+
+[ 2015-11-26T14:36:24+08:00 ] 127.0.0.1 /go/index.php/Admin/Home/home
+ERR: 无法加载控制器:Home
+
+[ 2015-11-26T14:36:25+08:00 ] 127.0.0.1 /go/index.php/Admin/Home/home
+ERR: 无法加载控制器:Home
+
+[ 2015-11-26T14:36:44+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/home
+ERR: 非法操作:home
+
+[ 2015-11-26T14:36:45+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/home
+ERR: 非法操作:home
+
+[ 2015-11-26T14:36:46+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/home
+ERR: 非法操作:home
+
+[ 2015-11-26T14:43:17+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/home
+ERR: 非法操作:home
+
+[ 2015-11-26T14:44:00+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/home
+ERR: 非法操作:home
+
+[ 2015-11-26T14:44:51+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/home
+ERR: 非法操作:home
+
+[ 2015-11-26T14:44:52+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/home
+ERR: 非法操作:home
+
+[ 2015-11-26T14:44:53+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/home
+ERR: 非法操作:home
+
+[ 2015-11-26T14:46:46+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/home
+ERR: 非法操作:home
+
+[ 2015-11-26T14:46:47+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/home
+ERR: 非法操作:home
+
+[ 2015-11-26T14:54:34+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/home
+ERR: 非法操作:home
+
+[ 2015-11-26T14:55:13+08:00 ] 127.0.0.1 /go/index.php/Admin/Ask/index
+ERR: 非法操作:index
+
+[ 2015-11-26T15:01:38+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/home
+ERR: 非法操作:home
+
+[ 2015-11-26T15:02:57+08:00 ] 127.0.0.1 /go/index.php/Admin/User/index
+ERR: 无法加载控制器:User
+
+[ 2015-11-26T15:03:33+08:00 ] 127.0.0.1 /go/index.php/Admin/Answer/index
+ERR: 无法加载控制器:Answer
+
+[ 2015-11-26T15:03:34+08:00 ] 127.0.0.1 /go/index.php/Admin/Answer/unadopt
+ERR: 无法加载控制器:Answer
+
+[ 2015-11-26T15:03:34+08:00 ] 127.0.0.1 /go/index.php/Admin/Answer/adopt
+ERR: 无法加载控制器:Answer
+
+[ 2015-11-26T15:03:36+08:00 ] 127.0.0.1 /go/index.php/Admin/Ask/index
+ERR: 非法操作:index
+
+[ 2015-11-26T15:03:37+08:00 ] 127.0.0.1 /go/index.php/Admin/Ask/unsolve
+ERR: 非法操作:unsolve
+
+[ 2015-11-26T15:03:38+08:00 ] 127.0.0.1 /go/index.php/Admin/Ask/solve
+ERR: 非法操作:solve
+
+[ 2015-11-26T15:03:38+08:00 ] 127.0.0.1 /go/index.php/Admin/Ask/zero
+ERR: 非法操作:zero
+
+[ 2015-11-26T15:19:37+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/edit/adminid/1
+ERR: 非法操作:edit
+
+[ 2015-11-26T15:21:32+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/showlist
+ERR: 非法操作:showlist
+
+[ 2015-11-26T15:24:08+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/edit/adminid/1
+ERR: 非法操作:edit
+
+[ 2015-11-26T15:25:22+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/edit/adminid/2
+ERR: 模板不存在:../Application/Admin/View/Role/edit.html
+
+[ 2015-11-26T15:57:47+08:00 ] 127.0.0.1 /go/index.php/Admin/User/index
+ERR: 无法加载控制器:User
+
+[ 2015-11-26T15:57:48+08:00 ] 127.0.0.1 /go/index.php/Admin/User/add
+ERR: 无法加载控制器:User
+
+[ 2015-11-26T15:57:49+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 无法加载控制器:User
+
+[ 2015-11-26T15:57:50+08:00 ] 127.0.0.1 /go/index.php/Admin/User/add
+ERR: 无法加载控制器:User
+
+[ 2015-11-26T15:57:50+08:00 ] 127.0.0.1 /go/index.php/Admin/User/index
+ERR: 无法加载控制器:User
+
+[ 2015-11-26T19:47:47+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/distribute/adminid/1
+ERR: 1054:Unknown column 'role' in 'field list'
+ [ SQL语句 ] : SELECT `role` FROM `ds_role` WHERE ( role_id=1 ) 
+
+[ 2015-11-26T20:13:37+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/distribute/adminid/1
+ERR: 参数错误或者未定义:roleid
+
+[ 2015-11-26T20:14:32+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/distribute/adminid/1
+ERR: 参数错误或者未定义:roleid
+
+[ 2015-11-26T20:16:26+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/distribute/adminid/1
+ERR: 参数错误或者未定义:roleid
+
+[ 2015-11-26T20:17:37+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/distribute/adminid/2
+ERR: 参数错误或者未定义:roleid
+
+[ 2015-11-26T20:18:17+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/distribute/adminid/2
+ERR: 参数错误或者未定义:roleid
+
+[ 2015-11-26T20:18:27+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/distribute/adminid/2
+ERR: 参数错误或者未定义:roleid
+
+[ 2015-11-26T20:20:33+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/distribute/adminid/2
+ERR: 参数错误或者未定义:roleid
+
+[ 2015-11-26T20:21:27+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/distribute/rid/2
+ERR: 参数错误或者未定义:roleid
+
+[ 2015-11-26T20:22:03+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/distribute/roleid/2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `role_auth_ids` FROM `ds_role` WHERE ( role_id= ) 
+
+[ 2015-11-26T21:26:25+08:00 ] 127.0.0.1 /go/index.php/Admin/User/index
+ERR: 无法加载控制器:User
+
+[ 2015-11-26T21:26:26+08:00 ] 127.0.0.1 /go/index.php/Admin/User/add
+ERR: 无法加载控制器:User
+
+[ 2015-11-26T21:26:27+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 无法加载控制器:User
+
+[ 2015-11-26T21:26:28+08:00 ] 127.0.0.1 /go/index.php/Admin/User/add
+ERR: 无法加载控制器:User
+
+[ 2015-11-26T21:26:28+08:00 ] 127.0.0.1 /go/index.php/Admin/User/index
+ERR: 无法加载控制器:User
+
+[ 2015-11-26T21:26:40+08:00 ] 127.0.0.1 /go/index.php/Admin/Answer/index
+ERR: 无法加载控制器:Answer
+
+[ 2015-11-26T21:26:41+08:00 ] 127.0.0.1 /go/index.php/Admin/Answer/unadopt
+ERR: 无法加载控制器:Answer
+
+[ 2015-11-26T21:26:42+08:00 ] 127.0.0.1 /go/index.php/Admin/Answer/adopt
+ERR: 无法加载控制器:Answer
+
+[ 2015-11-26T21:26:44+08:00 ] 127.0.0.1 /go/index.php/Admin/Ask/index
+ERR: 非法操作:index
+
+[ 2015-11-26T21:26:47+08:00 ] 127.0.0.1 /go/index.php/Admin/Ask/solve
+ERR: 非法操作:solve
+
+[ 2015-11-26T21:26:48+08:00 ] 127.0.0.1 /go/index.php/Admin/Ask/index
+ERR: 非法操作:index
+

@@ -1,0 +1,108 @@
+[ 2015-12-20T17:08:44+08:00 ] 127.0.0.1 /go/index.php/Home/Search/Ask/index
+ERR: 非法操作:Ask
+
+[ 2015-12-20T17:12:23+08:00 ] 127.0.0.1 /go/index.php/Home/Search/Ask/index
+ERR: 非法操作:Ask
+
+[ 2015-12-20T17:14:13+08:00 ] 127.0.0.1 /go/index.php/Home/Search/Ask/index
+ERR: 非法操作:Ask
+
+[ 2015-12-20T17:15:36+08:00 ] 127.0.0.1 /go/index.php/Home/Search/Ask/index
+ERR: 非法操作:Ask
+
+[ 2015-12-20T20:37:48+08:00 ] 127.0.0.1 /go/index.php/Home/Search/Ask/index
+ERR: 非法操作:Ask
+
+[ 2015-12-20T21:02:08+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002666s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content='怎样智能问答' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ds_answer` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `ds_answer` WHERE ( aid=4 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001369s ]
+
+[ 2015-12-20T21:02:15+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001745s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content='智能' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001293s ]
+
+[ 2015-12-20T21:03:54+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002710s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 62 行.
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content='本日问答之星' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001886s ]
+
+[ 2015-12-20T21:15:36+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006890s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 62 行.
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content='本日问答之星' )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001612s ]
+
+[ 2015-12-20T21:19:22+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002602s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 62 行.
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content='怎样智能问答' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ds_answer` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `ds_answer` WHERE ( aid=4 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001810s ]
+
+[ 2015-12-20T21:19:51+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002209s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 62 行.
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content='怎样智能问答' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ds_answer` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `ds_answer` WHERE ( aid=4 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001913s ]
+
+[ 2015-12-20T21:20:00+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002221s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 H:\wenda\Application\Home\Controller\RobotController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content='史蒂夫' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001734s ]
+
+[ 2015-12-20T21:20:22+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002235s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 62 行.
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content='怎样问答' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002056s ]
+

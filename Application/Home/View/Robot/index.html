@@ -1,0 +1,51 @@
+<include file="Common/header" /> 
+    <link href="__PUBLIC__/css/robot.css" rel="stylesheet" type="text/css">
+     <script type="text/javascript">
+         var controller="__CONTROLLER__";
+     </script>
+    <script type="text/javascript" src='__PUBLIC__/js/robot.js'></script>
+</head>
+<body>
+    <include file="Common/top" /> 
+    <div class="container">
+        <!--左边开始-->
+        <div class="left">
+            <div id="jiao">
+            <div class="biaoti">小问聊天</div>
+            <div id="result">
+             
+            </div>
+            <div class="shuru">
+                <input name="text" id="text" type="text">
+                <input value="发送" id="btn"  type="button">
+            </div>
+            </div>
+           <div class="zuoxia">
+             <p>关键字<p>
+              <ul>
+                  <li>天气</li>
+                  <li>笑话</li>
+                  <li>故事</li>
+                  <li>计算</li>
+                  <li>问答</li>
+                  <li>对话</li>
+              </ul>
+         </div>
+            
+        </div>  
+       
+           <!--左边结束-->
+           
+           
+           <!--右边开始-->
+           <include file="Common/right" />
+           <!--右边结束-->
+    </div>
+    
+   <!--底部开始--> 
+      <include file="Common/bottom" />
+   
+   <!--底部结束--> 
+    
+</body>
+</html>

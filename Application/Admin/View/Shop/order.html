@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<link rel="stylesheet" href="__PUBLIC__/css/public.css" />
+	<script type="text/javascript" src="__PUBLIC__/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/public.js"></script>	
+        <style type="text/css">
+            .an{
+                border: none;
+            }
+        </style>
+</head>
+
+<body>
+	<table class="table">
+		<tr>
+			<td class="th" colspan="20"><a href="__MODULE__/Shop/order">订单列表</a>|<a href="__MODULE__/Shop/unsend">未发货订单</a></td>
+		</tr>
+		<tr class="tableTop">
+			<td class="tdLittle1">序号</td>
+			<td>用户姓名</td>
+			<td>礼品名称</td>
+			<td>用户地址</td>
+			<td>用户电话</td>
+			<td>兑换时间</td>			
+			<td>收货状态</td>			
+			<td>发货状态</td>			
+			<td>操作</td>
+		</tr>
+            <volist name="order" id="v">
+		<tr>
+			<td>{$key+1}</td>
+			<td>{$v.realname}</td>
+			<td>{$v.gname}</td>
+			<td>{$v.address}</td>
+			<td>{$v.phone}</td>
+			<td>{$v.time|date="Y-m-d H:i:s",###}</td>
+                        <if condition="$v.sure eq 0 ">
+			<td>未收货</td>	
+                        <else />
+                          <td>已收货</td>	
+                        </if>
+                        <if condition="$v.send eq 0 ">
+			<td>未发货</td>	
+                        <else />
+                        <td>已发货</td>	
+                        </if>
+			<td>
+                            <a href="__CONTROLLER__/gai/id/{$v.id}" class="" >
+                                   <if condition="$v.send eq 0 ">
+                                      <input type="button" value="改变状态" class="an" >
+                                       <else />
+                                       <input type="button" value="已修改" disabled="disabled" class="an" >
+                                   </if>
+                                  </a>			
+			</td>
+		</tr>
+                </volist>
+	</table>
+	<div class="page">
+		{$page}
+	</div>
+
+</body>
+</html>

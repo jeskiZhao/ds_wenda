@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<link rel="stylesheet" href="__PUBLIC__/css/public.css" />
+	<script type="text/javascript" src="__PUBLIC__/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/public.js"></script>	
+</head>
+
+<body>
+	<table class="table">
+		<tr>
+			<td class="th" colspan="20"><a href="__MODULE__/Auth/index">权限列表</a> | <a href="__MODULE__/Auth/add">添加权限</a></td>
+		</tr>
+		<tr class="tableTop">
+			<td>序号</td>
+<!--			<td class="tdLittle1">ID</td>-->
+			<td>权限名</td>
+			<td>级别</td>
+			<td>父id</td>
+			<td>模块</td>
+			<td>方法</td>
+			<td>全路径</td>
+		</tr>
+		<foreach name="auth" item="v" key="k">
+		<tr>
+			<td>{$k}</td>
+			<!--<td>{$v.auth_id}</td>-->
+			<td>{$v.auth_name}</td>
+			<td>{$v.auth_level}</td>
+			<td>{$v.auth_pid}</td>
+			<td>{$v.auth_c}</td>
+			<td>{$v.auth_a}</td>
+			<td>{$v.auth_path}</td>
+		</tr>
+                </foreach>
+	</table>
+
+</body>
+</html>

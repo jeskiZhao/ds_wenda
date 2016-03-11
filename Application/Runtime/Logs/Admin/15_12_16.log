@@ -1,0 +1,33 @@
+[ 2015-12-16T20:09:11+08:00 ] 127.0.0.1 /go/index.php/Admin/Shop/order
+ERR: 非法操作:order
+
+[ 2015-12-16T21:44:23+08:00 ] 127.0.0.1 /go/index.php/Admin/Shop/del/id/2
+ERR: 非法操作:del
+
+[ 2015-12-16T21:45:48+08:00 ] 127.0.0.1 /go/index.php/Admin/Shop/del/id/2
+ERR: 非法操作:del
+
+[ 2015-12-16T21:50:26+08:00 ] 127.0.0.1 /go/index.php/Admin/Shop/del/id/2
+ERR: 非法操作:del
+
+[ 2015-12-16T21:53:27+08:00 ] 127.0.0.1 /go/index.php/Admin/Shop/del/id/2
+ERR: 非法操作:del
+
+[ 2015-12-16T21:53:32+08:00 ] 127.0.0.1 /go/index.php/Admin/Shop/del/id/2
+ERR: 非法操作:del
+
+[ 2015-12-16T21:53:35+08:00 ] 127.0.0.1 /go/index.php/Admin/Shop/del/id/2
+ERR: 非法操作:del
+
+[ 2015-12-16T21:54:06+08:00 ] 127.0.0.1 /go/index.php/Admin/Shop/del/id/2
+ERR: 非法操作:del
+
+[ 2015-12-16T21:55:35+08:00 ] 127.0.0.1 /go/index.php/Admin/Shop/del/id/2
+ERR: 非法操作:del
+
+[ 2015-12-16T21:59:04+08:00 ] 127.0.0.1 /go/index.php/Admin/Shop/del/id/2
+ERR: 非法操作:del
+
+[ 2015-12-16T22:01:28+08:00 ] 127.0.0.1 /go/index.php/Admin/Shop/del/id/2
+ERR: 非法操作:del
+

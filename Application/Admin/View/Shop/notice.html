@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<link rel="stylesheet" href="__PUBLIC__/css/public.css" />
+	<script type="text/javascript" src="__PUBLIC__/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/public.js"></script>	
+        <style type="text/css">
+            .hou{
+                width:88px;
+            }
+        </style>
+</head>
+
+<body>
+	<table class="table">
+		<tr>
+			<td class="th" colspan="20"><a href="__MODULE__/Shop/notice">公告列表</a> | <a href="__MODULE__/Shop/addnotice">添加公告</a></td>
+		</tr>
+		<tr class="tableTop">
+			<td class="tdLittle1">序号</td>
+			<td>公告标题</td>
+			<td>公告时间</td>
+			<td>公告详情</td>			
+			<td>操作</td>
+		</tr>
+            <volist name="good" id="v">
+		<tr>
+			<td>{$key+1}</td>
+			<td>{$v.title}</td>
+			<td>{$v.time|date="Y-m-d",###}</td>
+			<td>{$v.content}</td>		
+			<td class="hou">
+				<a href="__CONTROLLER__/edit/id/{$v.id}" >修改</a>|<a href="__CONTROLLER__/del/id/{$v.id}" class="del">删除</a>
+				
+			</td>
+		</tr>
+                </volist>
+	</table>
+	<div class="page">
+	{$page}
+	</div>
+
+</body>
+</html>

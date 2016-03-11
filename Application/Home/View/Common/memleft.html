@@ -1,0 +1,62 @@
+<div id='left'>
+		<div class='userinfo'>
+			<dl>
+                            <php>
+                                $userid=session('user_id');
+                                $user=M('user')->where('id='.$userid)->select();   
+                            
+                            </php>
+				<dt>
+					<a href=""><img src="{$user[0]['face']}" width='48' height='48' alt="占位符"/></a>
+				</dt>
+				<dd class='username'>
+					<a href=""><b>{$user[0]['account']}</b>
+					</a>
+					<a href="">
+						<i class='level lv1' title='Level 1'></i>
+					</a>
+				</dd>
+				<dd>金币：<a href="" style="color: #888888;"><b class='point'>{$user[0]['coin']}</b></a></dd>
+				<dd>经验值：{$user[0]['experince']}</dd>
+			</dl>
+			<table>
+				<tr>
+					<td>回答数</td>
+					<td>采纳率</td>
+					<td class='last'>提问数</td>
+				</tr>
+				<tr>
+					<td><a href="">{$user[0]['answer']}</a></td>
+					<td><a href=""><?php echo floor($user[0]['adopt']/$user[0]['answer']*100) ?>%</a></td>
+					<td class='last'><a href="">{$user[0]['ask']}</a></td>
+				</tr>
+			</table>
+		</div>
+
+	<ul>
+            <li class='myhome <if condition="ACTION_NAME eq index ">cur</if>'>
+			<a href="__CONTROLLER__/index">我的首页</a>
+		</li>
+		<li class='myask <if condition="ACTION_NAME eq myask ">cur</if>'>
+			<a href="__CONTROLLER__/myask">我的提问</a>
+		</li>
+		<li class='myanswer <if condition="ACTION_NAME eq myanswer ">cur</if>'>
+			<a href="__CONTROLLER__/myanswer">我的回答</a>
+		</li>
+		<li class='mylevel <if condition="ACTION_NAME eq mylevel ">cur</if>'>
+			<a href="__CONTROLLER__/mylevel">我的等级</a>
+		</li>
+		<li class='mygold <if condition="ACTION_NAME eq mycoin ">cur</if>'>
+			<a href="__CONTROLLER__/mycoin">我的金币</a>
+		</li>
+                <li class='mygood  <if condition="ACTION_NAME eq mygood ">cur</if>'>
+			<a href="__CONTROLLER__/mygood">我的兑换</a>
+		</li>
+		<li class='myface <if condition="ACTION_NAME eq myface ">cur</if>'>
+			<a href="__CONTROLLER__/myface">上传头像</a>
+		</li>
+		
+
+		<li style="background:none"></li>
+	</ul>
+</div>

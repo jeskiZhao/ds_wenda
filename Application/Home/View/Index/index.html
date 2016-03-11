@@ -1,0 +1,92 @@
+<include file="Common/header" />
+	<link rel="stylesheet" href="__PUBLIC__/css/index.css" />
+	<script type="text/javascript" src='__PUBLIC__/js/index.js'></script>
+</head>
+<body>
+	<include file="Common/top" />
+	<div class='main'>
+		<div id='left'>
+			<p class='left-title'>所有问题分类</p>
+			<ul class='left-list'>
+                           <volist name="cate" id="v">
+				<li class='list-l1'>
+					<div class='list-l1-wrap'>
+						<h4><a href="__MODULE__/List/index/cid/{$v.id}">{$v.name}</a></h4>
+						<ul class='list-l2'>
+                                                     <for start="0" end="3" name="i">
+							<li><a href="__MODULE__/List/index/cid/{$v['child'][$i]['id']}">{$v['child'][$i]['name']}</a></li>
+                                                      </for>
+						</ul>
+					</div>
+
+					<div class='list-more hidden'>
+						<ul>
+                                                     <for start="3" end="count($v['child'])" name="i">
+							<li><a href="__MODULE__/List/index/cid/{$v['child'][$i]['id']}">{$v['child'][$i]['name']}</a></li>
+						     </for>
+						</ul>
+					</div>
+				</li>
+                               </volist>
+		
+			</ul>
+		</div>
+
+		<div id='center'>
+			<div id='animate'>
+				<div class='imgs-wrap'>
+					<ul>
+						<li>
+							<a href=""><img src="__PUBLIC__/Images/1.jpg" width='558' height='190'/></a>
+						</li>
+						<li>
+							<a href=""><img src="__PUBLIC__/Images/2.jpg" width='558' height='190'/></a>
+						</li>
+						<li>
+							<a href=""><img src="__PUBLIC__/Images/3.jpg" width='558' height='190'/></a>
+						</li>
+					</ul>
+				</div>
+				<ul class='ani-btn'>
+					<li class='ani-btn-cur'>校园得声<i></i></li>
+					<li>得声祝你成功<i></i></li>
+					<li style='border:none'>有实力做得声<i></i></li>
+				</ul>
+			</div>
+
+			<dl class='answer-list'>
+				<dt>
+					<span class='wait-as'>待解决问题</span>
+					<a href='__MODULE__/List/index/cid/0'>更多>></a>
+				</dt>
+                              <volist name="unask" id="v">
+				<dd>
+					<a href="__MODULE__/Question/index/qid/{$v.id}">{$v.content}</a>
+					<span>{$v.answer}回答</span>
+				</dd>
+			      </volist>		
+			</dl>
+
+			<dl class='answer-list'>
+				<dt>
+					<span class='reward-as'>高分悬赏问题</span>
+					<a href='__MODULE__/List/index/cid/0'>更多>></a>
+				</dt>
+                                <volist name="gaoask" id="v">
+				<dd>
+					<a href="__MODULE__/Question/index/qid/{$v.id}"><b>{$v.reward}</b>{$v.content}</a>
+					<span>{$v.answer}回答</span>
+				</dd>	
+                                </volist>
+
+		</div>
+		<!-- 右侧 -->
+		<include file="Common/right" />
+              <!-- ---右侧结束---- -->
+	</div>
+<!--------------------内容主体结束-------------------->
+	<div class='clear'></div>
+	
+<!-- 底部 -->
+	<include file="Common/bottom" />
+<!-- 底部结束 -->

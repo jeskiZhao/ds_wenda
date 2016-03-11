@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>得声问答后台首页</title>
+	<link rel="stylesheet" href="__PUBLIC__/css/admin.css" />
+	<script type="text/javascript" src="__PUBLIC__/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/admin.js"></script>
+<!-- 默认打开目标 -->
+<base target="iframe"/>
+</head>
+<body>
+<!-- 头部 -->
+	<div id="top_box">
+		<div id="top">
+			<p id="top_font">得声校园问答管理后台</p>
+			<ul id="menu2" class="menu">
+				<li>
+                                    <a href="__APP__"  target="_blank">前台首页</a>
+				</li>
+				<li><a href="__MODULE__/Home/home">后台主页</a></li> 
+							
+			</ul>
+		</div>
+		<div class="top_bar">
+			<p class="adm">
+					<span>你好</span>
+				{$admin}
+				<span class="adm_pic">&nbsp&nbsp&nbsp&nbsp</span>
+				<span class="adm_people">[houdunwang]</span>
+			</p>
+			<p class="now_time">
+				  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;今天是：{$time|date="Y-m-d",###}	
+                                &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+				您的当前位置是：
+				<span>首页</span>
+			</p>
+			<p class="out">
+				<span class="out_bg">&nbsp&nbsp&nbsp&nbsp</span>&nbsp
+				<a href="__MODULE__/Login/logout" target="_self">退出</a>
+			</p>
+		</div>
+	</div>
+<!-- 左侧菜单 -->
+		<div id="left_box">
+			<p class="use">常用菜单</p>
+		       <div class="menu_box">
+				<h2><a href="__MODULE__/Home/home">后台主页</a></h2>                             			
+			</div>
+                        <volist name="father" id="vo">
+			 <div class="menu_box">
+				<h2>{$vo.auth_name}</h2>                             
+				 <div class="text">
+                                    <volist name="child" id="v">
+                                        <if condition="$vo.auth_id eq $v.auth_pid ">
+					<ul class="con">
+				        <li class="nav_u">
+				        	<a href="__MODULE__/{$v.auth_c}/{$v.auth_a}" class="pos">{$v.auth_name}</a>				        	
+				        </li> 
+				         </ul>
+                                       </if>
+                                     </volist>
+				</div>
+			</div>
+                      </volist>	
+			
+		</div>
+		<!-- 右侧 -->
+		<div id="right">
+			<iframe  frameboder="0" border="0" 	scrolling="yes" name="iframe" src="__MODULE__/Home/home"></iframe>
+		</div>
+	<!-- 底部  
+	<div id="foot_box">
+		<div class="foot">
+			<p>@Copyright © 2013-2013 MZY.com All Rights Reserved. 京ICP备0000000号</p>
+		</div>
+	</div>
+          --> 
+<!--[if IE 6]>
+    <script type="text/javascript" src="./js/iepng.js"></script>
+    <script type="text/javascript">
+        DD_belatedPNG.fix('.adm_pic, #left_box .pos, .span_server, .span_people', 'background');
+    </script>
+<![endif]-->
+</body>
+</html>

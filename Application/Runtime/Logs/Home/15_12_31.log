@@ -1,0 +1,20 @@
+[ 2015-12-31T15:22:45+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001883s ]
+NOTIC: [2] file_get_contents(): php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£  H:\wenda\Application\Home\Controller\RobotController.class.php ç¬¬ 49 è¡Œ.
+NOTIC: [2] file_get_contents(http://www.tuling123.com/openapi/api?key=1ef15c307b2cd08bac16fa35880ac3aa&info=fg): failed to open stream: php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£  H:\wenda\Application\Home\Controller\RobotController.class.php ç¬¬ 49 è¡Œ.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001432s ]
+
+[ 2015-12-31T15:22:55+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001676s ]
+NOTIC: [2] file_get_contents(): php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£  H:\wenda\Application\Home\Controller\RobotController.class.php ç¬¬ 49 è¡Œ.
+NOTIC: [2] file_get_contents(http://www.tuling123.com/openapi/api?key=1ef15c307b2cd08bac16fa35880ac3aa&info=p): failed to open stream: php_network_getaddresses: getaddrinfo failed: ²»ÖªµÀÕâÑùµÄÖ÷»ú¡£  H:\wenda\Application\Home\Controller\RobotController.class.php ç¬¬ 49 è¡Œ.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+

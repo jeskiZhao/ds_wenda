@@ -1,0 +1,166 @@
+[ 2015-12-08T08:29:13+08:00 ] 127.0.0.1 /go/index.php/Admin/Ask/index
+ERR: 非法操作:index
+
+[ 2015-12-08T16:49:28+08:00 ] 127.0.0.1 /go/index.php/Admin/Ask/index
+ERR: 非法操作:index
+
+[ 2015-12-08T16:49:32+08:00 ] 127.0.0.1 /go/index.php/Admin/Ask/index
+ERR: 非法操作:index
+
+[ 2015-12-08T16:52:31+08:00 ] 127.0.0.1 /go/index.php/Admin/Ask/index
+ERR: 模板不存在:../Application/Admin/View/Ask/index.html
+
+[ 2015-12-08T16:52:33+08:00 ] 127.0.0.1 /go/index.php/Admin/Ask/index
+ERR: 模板不存在:../Application/Admin/View/Ask/index.html
+
+[ 2015-12-08T20:22:44+08:00 ] 127.0.0.1 /go/index.php/Admin/Ask/unsolve
+ERR: 非法操作:unsolve
+
+[ 2015-12-08T20:28:59+08:00 ] 127.0.0.1 /go/index.php/Admin/Ask/solve
+ERR: 非法操作:solve
+
+[ 2015-12-08T20:32:52+08:00 ] 127.0.0.1 /go/index.php/Admin/Ask/zero
+ERR: 非法操作:zero
+
+[ 2015-12-08T20:35:41+08:00 ] 127.0.0.1 /go/index.php/Admin/Answer/index
+ERR: 无法加载控制器:Answer
+
+[ 2015-12-08T20:35:52+08:00 ] 127.0.0.1 /go/index.php/Admin/Answer/index
+ERR: 无法加载控制器:Answer
+
+[ 2015-12-08T20:41:52+08:00 ] 127.0.0.1 /go/index.php/Admin/Answer/unadopt
+ERR: 非法操作:unadopt
+
+[ 2015-12-08T20:41:53+08:00 ] 127.0.0.1 /go/index.php/Admin/Answer/adopt
+ERR: 非法操作:adopt
+
+[ 2015-12-08T20:41:53+08:00 ] 127.0.0.1 /go/index.php/Admin/Answer/unadopt
+ERR: 非法操作:unadopt
+
+[ 2015-12-08T20:53:44+08:00 ] 127.0.0.1 /go/index.php/Admin/Answer/unadopt
+ERR: 非法操作:unadopt
+
+[ 2015-12-08T21:51:22+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=1 ) 
+
+[ 2015-12-08T21:52:25+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=1 ) 
+
+[ 2015-12-08T21:52:26+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=1 ) 
+
+[ 2015-12-08T21:52:49+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=1 ) 
+
+[ 2015-12-08T21:54:51+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=1 ) 
+
+[ 2015-12-08T21:55:30+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=0 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=0 ) 
+
+[ 2015-12-08T21:55:31+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=0 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=0 ) 
+
+[ 2015-12-08T21:55:31+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=0 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=0 ) 
+
+[ 2015-12-08T21:55:31+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=0 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=0 ) 
+
+[ 2015-12-08T21:55:32+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=0 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=0 ) 
+
+[ 2015-12-08T21:55:32+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=0 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=0 ) 
+
+[ 2015-12-08T21:55:32+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=0 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=0 ) 
+
+[ 2015-12-08T21:55:32+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=0 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=0 ) 
+
+[ 2015-12-08T21:55:32+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=0 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=0 ) 
+
+[ 2015-12-08T21:55:33+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=0 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=0 ) 
+
+[ 2015-12-08T21:55:33+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=0 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=0 ) 
+
+[ 2015-12-08T21:55:33+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=0 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=0 ) 
+
+[ 2015-12-08T21:55:33+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=0 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=0 ) 
+
+[ 2015-12-08T21:55:48+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=0 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=0 ) 
+
+[ 2015-12-08T21:55:49+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=0 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=0 ) 
+
+[ 2015-12-08T21:55:49+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=0 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=0 ) 
+
+[ 2015-12-08T21:55:49+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=0 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=0 ) 
+
+[ 2015-12-08T21:55:49+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=0 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=0 ) 
+
+[ 2015-12-08T21:55:49+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=0 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=0 ) 
+
+[ 2015-12-08T21:55:50+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=0 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=0 ) 
+
+[ 2015-12-08T21:55:50+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=0 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=0 ) 
+
+[ 2015-12-08T21:55:50+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=0 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=0 ) 
+
+[ 2015-12-08T21:57:16+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=1 ) 
+
+[ 2015-12-08T21:58:11+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock=1 ) 
+
+[ 2015-12-08T21:59:18+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock='0' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock='0' ) 
+
+[ 2015-12-08T21:59:19+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lock='0' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( lock='0' ) 
+

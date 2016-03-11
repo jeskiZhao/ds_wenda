@@ -1,0 +1,55 @@
+<include file="Common/header" />
+	<link rel="stylesheet" href="__PUBLIC__/css/member.css" />
+	
+</head>
+<body>
+	<!-- top -->
+	<include file="Common/top" />
+<!--------------------中部-------------------->
+	<div id='center'>
+<!-- 左侧 -->
+<include file="Common/memleft" />
+<!-- 左侧结束 -->
+		<div id='right'>
+			<p class='title'>我的金币</p>
+			<p class='lv-info'>
+                            <if condition="$coin">
+					您现有金币<span>{$coin}</span>
+                                        <else />					
+                                        您还没有金币，赶紧向着高富帅去奋斗吧！
+                             </if>
+			</p>
+			<div class='lv-rule'>
+				<p><span>金币获取</span></p>
+				<table class='lv-exp'>
+					<tr>
+						<th>操作</th>
+						<th>获得金币</th>
+					</tr>
+					<tr>
+						<td>回答</td>
+						<td>+{$Think.config.ANSWER}金币</td>
+					</tr>
+					<tr>
+						<td>回答被采纳</td>
+						<td>+{$Think.config.ACCEPT}金币</td>
+					</tr>
+					<tr>
+						<td>回答被删除：</td>
+						<td>-{$Think.config.DEL_ANSWER}金币</td>
+					</tr>
+					<tr>
+						<td>提问被删除：</td>
+						<td>-{$Think.config.DEL_ASK}金币</td>
+					</tr>
+					<tr>
+						<td>采纳回答被删除</td>
+						<td>提问者：-{$Think.config.DEL_ACCEPT_ANSWER}金币&nbsp;&nbsp;回答者：-{$Think.config.DEL_ACCEPT_ANSWER}金币</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+<!--------------------中部结束-------------------->
+<include file="Common/bottom" />
+<!-- 底部结束 -->

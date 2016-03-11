@@ -1,0 +1,41 @@
+[ 2015-12-13T10:08:46+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001797s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content='怎样智能问答' )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ds_answer` [ RunTime:0.1094s ]
+SQL: SELECT * FROM `ds_answer` WHERE ( aid=4 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001310s ]
+
+[ 2015-12-13T10:08:51+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001760s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content='史蒂夫' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001175s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2015-12-13T10:09:18+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001731s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0413s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content='第三方' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001391s ]
+
+[ 2015-12-13T10:10:21+08:00 ] 127.0.0.1 /go/index.php/Home/Topic/index
+ERR: 无法加载控制器:Topic
+
+[ 2015-12-13T10:10:47+08:00 ] 127.0.0.1 /go/index.php/Home/Shop/geshou.html
+ERR: 非法操作:geshou
+
+[ 2015-12-13T11:56:47+08:00 ] 127.0.0.1 /go/index.php/Home/Topic/index
+ERR: 无法加载控制器:Topic
+

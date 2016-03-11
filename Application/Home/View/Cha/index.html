@@ -1,0 +1,28 @@
+<include file="Common/searchtop" />
+	<!-- 搜索顶部结束 -->
+<div id="zhong">
+	<!-- 搜索框 -->
+	<div class="search_box">
+            <form action="__MODULE__/Cha/index" method="post">
+		<input type="text" name="wen" class="searchInput" value="{$wen}" />
+		<input type="submit" value="搜索答案" class="sub"/>
+                </form>
+		<a href="__MODULE__/Ask/index">我要提问</a>
+	</div>
+	<!-- 搜索框结束 -->
+	<!-- 搜索内容 -->
+	<div class="searcont" id='di'>
+            <if condition="$rone">
+            <volist name="rone" id="v">
+		<ul>         
+			<li> <a href="__MODULE__/Question/index/qid/{$v[3]}" class="title">{$v[4]}</a> <span id='zhi'><?php echo round($v[10],2); ?></span></li>
+			<li>{$v[1]},..<span id="zan" class="zan" title="2"><input type="hidden" value="{$v[3]}"><img src="__PUBLIC__/images/zan.png">给力</span><span class="za"><input type="hidden" value="{$v[3]}"><img src="__PUBLIC__/images/za.png">不给力</span></li>
+			<li class="time"><span><a href="__MODULE__/Question/index/qid/{$v[3]}">www.wenda.com__ROOT__/Question/index/qid/{$v[3]}</span> - 提问时间: {$v[8]|date="Y-m-d",###}</a></li>
+		</ul>
+            </volist>
+            </if>          
+	</div>
+	<!-- 搜索内容结束 -->
+</div>
+<!-- 底部 -->
+<include file="Common/bottom" />

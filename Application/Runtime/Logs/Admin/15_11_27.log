@@ -1,0 +1,63 @@
+[ 2015-11-27T09:13:00+08:00 ] 127.0.0.1 /go/index.php/Admin/Answer/index
+ERR: 无法加载控制器:Answer
+
+[ 2015-11-27T09:50:26+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/distribute/rolid/1
+ERR: 参数错误或者未定义:roleid
+
+[ 2015-11-27T10:02:16+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/distribute/jie/2
+ERR: 参数错误或者未定义:roleid
+
+[ 2015-11-27T10:03:04+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/distribute/jie/2
+ERR: 参数错误或者未定义:id
+
+[ 2015-11-27T10:04:57+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/distribute/jie/2
+ERR: 参数错误或者未定义:roleid
+
+[ 2015-11-27T10:38:53+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/distribute.html
+ERR: 参数错误或者未定义:roleid
+
+[ 2015-11-27T10:40:19+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/distribute.html
+ERR: 参数错误或者未定义:roleid
+
+[ 2015-11-27T10:44:47+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/distribute/roleid/3
+ERR: 1054:Unknown column 'rold_id' in 'where clause'
+ [ SQL语句 ] : UPDATE `ds_role` SET `role_auth_ids`='17,18' WHERE ( rold_id=3 )
+
+[ 2015-11-27T10:45:33+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/distribute/roleid/3
+ERR: 1054:Unknown column 'rolea_id' in 'where clause'
+ [ SQL语句 ] : UPDATE `ds_role` SET `role_auth_ids`='17,18' WHERE ( rolea_id=3 )
+
+[ 2015-11-27T10:46:38+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/distribute.html
+ERR: 参数错误或者未定义:roleid
+
+[ 2015-11-27T10:50:59+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/distribute.html
+ERR: 参数错误或者未定义:roleid
+
+[ 2015-11-27T10:52:58+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/distribute.html
+ERR: 参数错误或者未定义:roleid
+
+[ 2015-11-27T10:54:23+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/distribute.html
+ERR: 参数错误或者未定义:roleid
+
+[ 2015-11-27T10:54:23+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/distribute.html
+ERR: 参数错误或者未定义:roleid
+
+[ 2015-11-27T10:55:09+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/distribute.html
+ERR: 参数错误或者未定义:roleid
+
+[ 2015-11-27T11:03:04+08:00 ] 127.0.0.1 /go/index.php/Admin/User/index
+ERR: 无法加载控制器:User
+
+[ 2015-11-27T11:03:05+08:00 ] 127.0.0.1 /go/index.php/Admin/User/add
+ERR: 无法加载控制器:User
+
+[ 2015-11-27T11:03:05+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 无法加载控制器:User
+
+[ 2015-11-27T15:55:04+08:00 ] 127.0.0.1 /go/index.php/Admin/Manager/add%7D
+ERR: 非法操作:add}
+
+[ 2015-11-27T15:55:17+08:00 ] 127.0.0.1 /go/index.php/Admin/Manager/add
+ERR: 1054:Unknown column 'role_id' in 'field list'
+ [ SQL语句 ] : SELECT `role_id`,`role_name` FROM `ds_admin` 
+

@@ -1,0 +1,28 @@
+<include file="Common/searchtop" />
+	<!-- 搜索顶部结束 -->
+<div id="zhong">
+	<!-- 搜索框 -->
+	<div class="search_box">
+            <form action="__MODULE__/Search/self" method="post">
+		<input type="text" name="wen" class="searchInput" value="{$wen}" />
+		<input type="submit" value="搜索答案" class="sub"/>
+                </form>
+		<a href="__MODULE__/Ask/index">我要提问</a>
+	</div>
+	<!-- 搜索框结束 -->
+	<!-- 搜索内容 -->
+	<div class="searcont">
+            <if condition="$rone">
+            <volist name="rone" id="v">
+		<ul>
+			<li> <a href="__MODULE__/Question/index/qid/{$v.id}" class="title">{$v.content}</a> </li>
+			<li>{$v.hui},..</li>
+			<li class="time"><span><a href="__MODULE__/Question/index/qid/{$v.id}">www.wenda.com__ROOT__/Question/index/qid/{$v.id}</span> - 提问时间: {$v.time|date="Y-m-d",###}</a></li>
+		</ul>
+            </volist>
+            </if>          
+	</div>
+	<!-- 搜索内容结束 -->
+</div>
+<!-- 底部 -->
+<include file="Common/bottom" />

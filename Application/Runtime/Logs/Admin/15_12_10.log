@@ -1,0 +1,19 @@
+[ 2015-12-10T11:01:01+08:00 ] 127.0.0.1 /go/index.php/Admin/Auth/add
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `auth_path` FROM `ds_` WHERE ( auth_id= ) 
+
+[ 2015-12-10T11:01:32+08:00 ] 127.0.0.1 /go/index.php/Admin/Auth/add
+ERR: 1146:Table 'dswenda.ds_' doesn't exist
+ [ SQL语句 ] : SELECT `auth_path` FROM `ds_` WHERE ( auth_id=0 ) 
+
+[ 2015-12-10T11:10:16+08:00 ] 127.0.0.1 /go/index.php/Admin/Auth/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'des' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_auth` ORDER BY auth_id des 
+
+[ 2015-12-10T11:16:20+08:00 ] 127.0.0.1 /go/index.php/Admin/Auth/showlist.html
+ERR: 非法操作:showlist
+
+[ 2015-12-10T11:21:43+08:00 ] 127.0.0.1 /go/index.php/Admin/Auth/add
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : UPDATE `ds_auth` SET `auth_path`='-31' WHERE ( id=31 )
+

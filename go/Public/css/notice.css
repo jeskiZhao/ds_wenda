@@ -1,0 +1,21 @@
+#center{
+    height:380px;
+    margin:10px auto;
+    width:980px;
+    overflow:hidden;
+    
+}
+#biao{
+    font-size: 26px;
+    font-weight:bold;
+    height:36px;
+    line-height: 36px;
+}
+#content{
+    text-align: left;
+    font-size:18px;
+}
+#time{
+    text-align: right;
+    margin-top:2px;
+}

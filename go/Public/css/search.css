@@ -1,0 +1,76 @@
+.search_top{
+    height: 35px;
+
+}
+#zhong{
+     width:980px;
+     margin:10px auto;
+     /*border: 1px solid #c8c8ff;*/
+}
+.biao{
+    width:980px;
+    margin:1px auto;
+    height:50px;
+   
+  
+    line-height: 45px;
+    font-size:18px;
+    font-weight:bold;
+}
+.sou{
+     width:980px;
+     margin:1px auto;
+     height:35px;
+     background: #016BA9;
+      color: white;
+}
+.sou ul{
+    overflow: hidden;
+    height:35px;
+    width:980px;
+}
+.sou ul li{
+    float:left;
+    line-height:35px;
+    text-align: center;
+    margin:0px 15px;
+    font-size:14px;  
+   
+}
+.sou ul li a{
+    color:white;
+}
+.search_box .searchInput {
+    margin-left:2px;
+}
+#di{
+    margin-bottom: 220px;
+}
+#zhi{
+    border:1px solid green;
+    margin-left:3px;
+}
+.zan{
+    border:1px solid #d1d1d1;
+    box-shadow: 2px 2px 1px #e7e7e7;
+    margin-left:8px;
+    text-align: right;
+    cursor: pointer;
+}
+.za{
+    border:1px solid #d1d1d1;
+    box-shadow: 2px 2px 1px #e7e7e7;
+    margin-left:8px;
+    text-align: right;
+      cursor: pointer;
+}
+.za img{
+       width:22px;
+       height:16px;
+       margin:-3px 1px;
+}
+.zan img{
+       width:22px;
+       height:16px;
+       margin:-3px 1px;
+}

@@ -1,0 +1,38 @@
+[ 2015-12-18T09:42:29+08:00 ] 127.0.0.1 /go/index.php/
+ERR: 1065:Query was empty
+
+[ 2015-12-18T10:08:05+08:00 ] 127.0.0.1 /go/index.php/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : select * from ds_user AS u join ds_answer AS a on u.id=a.uid  where 
+
+[ 2015-12-18T10:17:05+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/qid/27
+ERR: 1052:Column 'adopt' in field list is ambiguous
+ [ SQL语句 ] : select account,face,answer,adopt from ds_user u join ds_answer a on u.id=a.uid  where a.time>1450368000 
+
+[ 2015-12-18T10:17:43+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/qid/27
+ERR: 1054:Unknown column 'user.adopt' in 'field list'
+ [ SQL语句 ] : select account,face,answer,user.adopt from ds_user u join ds_answer a on u.id=a.uid  where a.time>1450368000 
+
+[ 2015-12-18T10:51:16+08:00 ] 127.0.0.1 /go/index.php
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by u.account order by answer desc limit 1' at line 1
+ [ SQL语句 ] : select account,face,answer,u.adopt from ds_user u join ds_answer a on u.id=a.uid  where group by u.account order by answer desc limit 1
+
+[ 2015-12-18T11:04:11+08:00 ] 127.0.0.1 /go/index.php/Home/Question/index/qid/26
+ERR: XML标签语法错误 : name='b'id='v'
+
+[ 2015-12-18T16:00:10+08:00 ] 127.0.0.1 /go/index.php
+ERR: 1054:Unknown column 'a' in 'field list'
+ [ SQL语句 ] : SELECT `account`,a.id,a,content FROM `ds_answer` `a` LEFT JOIN `ds_user` `u` ON `a`.`uid` = `u`.`id` WHERE `time` > 1450368000 GROUP BY `account` ORDER BY `answer` DESC
+
+[ 2015-12-18T16:22:03+08:00 ] 127.0.0.1 /go/index.php
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'by count(a.id) desc' at line 1
+ [ SQL语句 ] : select account,face,answer,u.adopt,a.content from ds_user u LEFT join ds_answer a on u.id=a.uid  where a.time>1450368000order by count(a.id) desc
+
+[ 2015-12-18T16:27:13+08:00 ] 127.0.0.1 /go/index.php
+ERR: 1054:Unknown column 'u.adopt' in 'field list'
+ [ SQL语句 ] : select account,face,answer,u.adopt from ds_user order by answer desc
+
+[ 2015-12-18T17:15:33+08:00 ] 127.0.0.1 /go/index.php/Home/search/index
+ERR: 1146:Table 'dswenda.ds_answer_view' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_answer_view`
+

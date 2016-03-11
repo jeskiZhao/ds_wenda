@@ -1,0 +1,63 @@
+#center{
+    width:980px;
+    height:auto;
+    margin:0 auto;
+}
+#ren{
+    width:980px;
+    height:112px;
+    margin:0 auto;
+}
+ .biao{
+    font-size:20px;
+    font-weight: bold;
+    margin-top:10px;
+    margin-bottom:10px;
+    text-align: left;
+    border-bottom: 1px solid activeborder;
+}
+#ren .xin{
+     margin-top:26px;
+     text-align: left;
+    margin-left: 20px;
+      line-height: 10px;
+      font-size:18px;
+}
+#ren .xin .one{
+    margin-left: 30px;
+}
+#ren .cao{
+    margin-left: 365px;
+}
+#dingdan{
+    width:980px;
+    height:169px;
+    margin:0 auto;
+   
+}
+#wu .biaoone{
+     border-bottom: 1px solid activeborder;
+      width:980px;
+}
+#wu td{
+    width:205px;
+    margin:5px 10px;
+}
+#wu .tu{
+    width:133px;
+    height:90px;
+}
+#zui{
+    font-size:18px;
+    font-weight: bold;
+    text-align: right;
+    background: #f1efeb;
+    height:50px;
+    width:1000px;
+}
+#zui input{
+    width:122px;
+    height:38px;
+    background: #f70;
+    margin:6px 15px 6px;
+}

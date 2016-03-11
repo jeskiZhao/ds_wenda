@@ -1,0 +1,6 @@
+[ 2015-11-23T16:51:11+08:00 ] 127.0.0.1 /go/index.php/Admin/Manager/edit/adminid/1
+ERR: 非法操作:edit
+
+[ 2015-11-23T16:53:03+08:00 ] 127.0.0.1 /go/index.php/Admin/Manager/del/adminid/
+ERR: 非法操作:del
+

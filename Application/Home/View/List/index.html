@@ -1,0 +1,73 @@
+<include file="Common/header"/>
+  <link rel="stylesheet" href="__PUBLIC__/css/list.css" />
+</head>
+<body>
+	<!-- top -->
+     <include file="Common/top" />
+        <!-- top 结束-->
+
+	<div id='location'>
+		<a href="__MODULE__/List/index/cid/0">全部分类</a>
+			<volist name="bread" id="v">
+			&gt;&nbsp;<a href="__MODULE__/List/index/cid/{$v.id}">{$v.name}</a>&nbsp;&nbsp;
+                        </volist>
+	</div>
+
+<!--------------------中部-------------------->
+	<div id='center'>
+		<div id='left'>
+			<div id='cate-list'>
+				<p class='title'>按分类查找</p>
+				<ul>
+                                    <volist name="info" id="v">
+					<li>
+						<a href="__MODULE__/List/index/cid/{$v.id}">{$v.name}</a>
+					</li>	
+                                    </volist>
+				
+				</ul>
+			</div>
+			<div id='answer-list'>
+				<ul class='ans-sel'>
+					<li class='on'>
+						<a href="">问题</a>
+					</li>
+			
+				</ul>
+				<!-- 待解决问题 -->
+				<table>
+					<tr>
+						<th class='t1'>标题</th>
+						<th>回答数</th>
+						<th>时间</th>
+					</tr>
+                                         <volist name="ask" id="v">
+						<tr>
+							<td class='t1 cons'>
+								<a href="__MODULE__/Question/index/qid/{$v.id}">
+									<b>{$v.reward}</b>{$v.content}</a>&nbsp;&nbsp;[{$v.name}]
+							</td>
+							<td>{$v.answer}</td>
+							<td>{$v.time|date="y-m-d h:i:s",###}</td>
+						</tr>
+                                          </volist>
+		
+					<tr class='page'>
+						<td>
+							{$page}
+						</td>
+					</tr>
+				</table>
+
+			</div>
+		</div>
+
+<!-- 右侧 -->
+	<include file="Common/right" />	
+<!-- ---右侧结束---- -->
+	</div>
+<!--------------------中部结束-------------------->
+
+<!-- 底部 -->
+<include file="Common/bottom" />
+<!-- 底部结束 -->

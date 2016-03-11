@@ -1,0 +1,124 @@
+	<!-- 右侧 -->
+		<div id='right'>
+                <if condition="!isset($_SESSION['user_account'])">
+                       <div class='r-login'>
+			<span class='login'><i></i>&nbsp;登录</span>
+			<span class='register'><i></i>&nbsp;注册</span>
+		      </div>
+                <else />
+		<div class='userinfo'>
+                    <php>
+                        $id=session('user_id');
+                        $info=M('user')->where('id='.$id)->select();
+                    </php>
+			<dl>
+				<dt>
+					<a href="__MODULE__/Member/index"><img src="{$info[0]['face']}" width='48' height='48' alt=""/></a>
+				</dt>
+				<dd class='username'>
+					<a href="__MODULE__/Member/index">
+						<b>{$info[0]['account']}</b>
+					</a>
+					<a href="__MODULE__/Member/index">
+						<i class='level lv1' title='Level 1'></i>
+					</a>
+				</dd>
+				<dd>金币：<a href="" style="color: #888888;">{$info[0]['coin']}<b class='point'></b></a></dd>
+				<dd>经验值：{$info[0]['experince']}</dd>
+			</dl>
+			<table>
+				<tr>
+					<td>回答数</td>
+					<td>采纳率</td>
+					<td class='last'>提问数</td>
+				</tr>
+				<tr>
+					<td><a href="">{$info[0]['answer']}</a></td>
+					<td><a href=""><?php echo floor($info[0]['adopt']/$info[0]['answer']*100) ?>%</a></td>
+					<td class='last'><a href="">{$info[0]['ask']}</a></td>
+				</tr>
+			</table>
+			<ul>
+				<li><a href="__APP__/Home/Member/myask">我提问的</a></li>
+				<li><a href="__APP__/Home/Member/myanswer">我回答的</a></li>
+			</ul>
+		</div>
+                </if>
+		<!-- <div class='r-login'>
+			<span class='login'><i></i>&nbsp;登录</span>
+			<span class='register'><i></i>&nbsp;注册</span>
+		</div> -->
+	<div class='clear'></div>
+        
+        <!--问答之星-->
+	<div class='star'>
+		<p class='title'>得声问答之星</p>
+		<span class='star-name'>本日回答问题最多的人</span>
+                <php>
+                    $today=strtotime(date('Y-m-d'));
+                    $sql="select account,face,answer,u.adopt,a.content from ds_user u join ds_answer a on u.id=a.uid  where a.time>".$today." order by count(a.id) desc";
+                    $u=M('user')->query($sql);
+                </php>
+			<div class='star-info'>
+				<div>
+					<a href="" class='star-face'>
+						<img src="{$u[0]['face']}" width='48px' height='48px' alt="头像站位"/>
+					</a>
+					<ul>
+						<li><a href="">{$u[0]['account']}</a></li>
+						<i class='level lv1' title='Level 1'></i>
+					</ul>
+				</div>
+				<ul class='star-count'>
+					<li>回答数：<span>{$u[0]['answer']}</span></li>
+					<li>采纳率：<span><?php echo floor($u[0]['adopt']/$u[0]['answer']*100) ?>%</span></li>
+				</ul>
+			</div>
+		<span class='star-name'>历史回答问题最多的人</span>
+                   <php>
+                    $sql="select account,face,answer,adopt from ds_user order by answer desc limit 1";                   
+                    $m=M('user')->query($sql);  
+                </php>
+		<div class='star-info'>
+			<div>
+				<a href="" class='star-face'>
+					<img src="{$m[0]['face']}" width='48px' height='48px' alt="头像站位"/>
+				</a>
+				<ul>
+					<li><a href="">{$m[0]['account']}</a></li>
+					<i class='level lv1' title='Level 1'></i>
+				</ul>
+			</div>
+			<ul class='star-count'>
+				<li>回答数：<span>{$m[0]['answer']}</span></li>
+				<li>采纳率：<span><?php echo floor($m[0]['adopt']/$m[0]['answer']*100) ?>%</span></li>
+			</ul>
+		</div>
+	</div>
+	<div class='star-list'>
+		<p class='title'>得声问答助人光荣榜</p>
+                 <php>
+                    $sql="select account,face,answer,u.adopt from ds_user u join ds_answer a on u.id=a.uid  group by u.account order by answer desc limit 5";
+                    $b=M('user')->query($sql);
+                </php>
+		<div>
+			<ul class='ul-title'>
+				<li>用户名</li>
+				<li style='text-align:right;'>帮助过的人数</li>
+			</ul>
+			<ul class='ul-list'>
+                           <php>
+                               foreach($b as $v){
+                           </php>
+				<li>
+					<a href=""><i class='rank r1'></i>{$v.account}</a>
+					<span>{$v.answer}</span>
+				</li>
+		            <php>
+                              }
+                           </php>	
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- ---右侧结束---- -->

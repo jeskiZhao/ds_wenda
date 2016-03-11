@@ -1,0 +1,171 @@
+[ 2015-12-26T16:03:06+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002306s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 62 行.
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content='你好' )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001575s ]
+
+[ 2015-12-26T20:56:15+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002493s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 H:\wenda\Application\Home\Controller\RobotController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0694s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content='nihao' )  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001524s ]
+
+[ 2015-12-26T21:20:51+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003029s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 62 行.
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content='你好' )  [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001834s ]
+
+[ 2015-12-26T21:21:15+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002261s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 H:\wenda\Application\Home\Controller\RobotController.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 0 H:\wenda\Application\Home\Controller\RobotController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content='北京天安门' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001389s ]
+
+[ 2015-12-26T21:21:27+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002304s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 62 行.
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content='石家庄铁道大学' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001339s ]
+
+[ 2015-12-26T21:22:56+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003440s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 62 行.
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content like '%北京到石家庄的火车票多少钱%' )  [ RunTime:0.0394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001729s ]
+
+[ 2015-12-26T21:23:08+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003838s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 62 行.
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content like '%石家庄铁道大学%' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ds_answer` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `ds_answer` WHERE ( aid=25 ) LIMIT 1   [ RunTime:0.0225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001884s ]
+
+[ 2015-12-26T21:23:42+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004749s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 62 行.
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content like '%去冬泳是一种什么感觉%' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ds_answer` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `ds_answer` WHERE ( aid=26 ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001928s ]
+
+[ 2015-12-26T21:24:27+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002513s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 62 行.
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content like '%去冬泳%' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ds_answer` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `ds_answer` WHERE ( aid=26 ) LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001563s ]
+
+[ 2015-12-26T21:24:56+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008506s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 62 行.
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content like '%铁道大学有多少人呢？%' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ds_answer` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ds_answer` WHERE ( aid=14 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002140s ]
+
+[ 2015-12-26T21:25:01+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002113s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 62 行.
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content like '%铁道%' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ds_answer` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `ds_answer` WHERE ( aid=11 ) LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001772s ]
+
+[ 2015-12-26T21:25:27+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007718s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 62 行.
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content like '%铁道大学%' )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ds_answer` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `ds_answer` WHERE ( aid=11 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2015-12-26T21:31:47+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002835s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 62 行.
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content like '%石家庄火车站%' )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2015-12-26T21:31:57+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001811s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 62 行.
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content like '%石家庄铁道大学%' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ds_answer` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `ds_answer` WHERE ( aid=25 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001219s ]
+

@@ -1,0 +1,235 @@
+[ 2015-11-24T10:03:22+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/index.html
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:04:23+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/index.html
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:05:37+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/index.html
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:05:39+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/index.html
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:05:40+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/index.html
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:05:40+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/index.html
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:05:41+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/index.html
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:05:41+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/index.html
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:05:44+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/index.html
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:05:46+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/index.html
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:05:46+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/index.html
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:05:46+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/index.html
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:05:47+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/index.html
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:05:51+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/index.html
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:05:52+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/index.html
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:05:53+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/index.html
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:05:54+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/index.html
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:05:55+08:00 ] 127.0.0.1 /go/index.php/Admin/Index/index.html
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:06:05+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:06:06+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:06:07+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:06:07+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:06:07+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:06:07+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:06:08+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:06:08+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:06:08+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:06:08+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:06:28+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: Think\Model:father方法不存在！
+
+[ 2015-11-24T10:06:30+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: Think\Model:father方法不存在！
+
+[ 2015-11-24T10:06:31+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: Think\Model:father方法不存在！
+
+[ 2015-11-24T10:06:32+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: Think\Model:father方法不存在！
+
+[ 2015-11-24T10:07:49+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:07:51+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:07:51+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:07:51+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:07:52+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:07:52+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:07:52+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:07:52+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:07:53+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:07:53+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:08:23+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:08:23+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:08:24+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:08:24+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:08:24+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:08:24+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:08:25+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:08:25+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:08:25+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:08:25+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:08:26+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:08:26+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:08:39+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:08:40+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:08:40+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:08:41+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1146:Table 'dswenda.ds_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_index`
+
+[ 2015-11-24T10:25:27+08:00 ] 127.0.0.1 /go/index.php/Admin/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['role_auth_ids'])' at line 1
+ [ SQL语句 ] : select * from ds_auth where auth_level=0 and auth_id in (Array['role_auth_ids']);
+
+[ 2015-11-24T11:16:45+08:00 ] 127.0.0.1 /go/index.php/Admin/Role/del/adminid/
+ERR: 非法操作:del
+

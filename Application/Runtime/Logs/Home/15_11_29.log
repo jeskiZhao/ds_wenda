@@ -1,0 +1,8 @@
+[ 2015-11-29T19:53:28+08:00 ] 127.0.0.1 /go/index.php/Home/Member/index
+ERR: 1054:Unknown column 'i' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( i=1 ) 
+
+[ 2015-11-29T22:01:48+08:00 ] 127.0.0.1 /go/index.php/Home/Member/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( id= ) 
+

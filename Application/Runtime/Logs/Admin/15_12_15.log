@@ -1,0 +1,22 @@
+[ 2015-12-15T09:19:01+08:00 ] 127.0.0.1 /go/index.php/Admin/Shop/recommend
+ERR: 1146:Table 'dswenda.ds_recommend_model_view' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_recommend_model_view`
+
+[ 2015-12-15T09:22:18+08:00 ] 127.0.0.1 /go/index.php/Admin/Shop/recommend
+ERR: 1146:Table 'dswenda.ds_recommend_model_view' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_recommend_model_view`
+
+[ 2015-12-15T10:11:03+08:00 ] 127.0.0.1 /go/index.php/Admin/Shop/editrecommend/id/1
+ERR: 1146:Table 'dswenda.ds_gcate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_gcate`
+
+[ 2015-12-15T10:17:14+08:00 ] 127.0.0.1 /go/index.php/Admin/Shop/editrecommend
+ERR: 参数错误或者未定义:id
+
+[ 2015-12-15T10:25:34+08:00 ] 127.0.0.1 /go/index.php/Admin/Shop/editrecommend/id/1
+ERR: 参数错误或者未定义:rid
+
+[ 2015-12-15T10:41:45+08:00 ] 127.0.0.1 /go/index.php/Admin/Shop/editrecommend
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( id=1 )' at line 1
+ [ SQL语句 ] : UPDATE `ds_recommend` SET  WHERE ( id=1 )
+

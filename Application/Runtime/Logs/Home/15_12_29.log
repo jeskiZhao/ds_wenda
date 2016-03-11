@@ -1,0 +1,19 @@
+[ 2015-12-29T08:22:39+08:00 ] 127.0.0.1 /go/index.php/Home/Member/Js/member.js
+ERR: 非法操作:Js
+
+[ 2015-12-29T09:01:54+08:00 ] 127.0.0.1 /go/index.php/Home/Member/mygood
+ERR: XML标签语法错误 : name='$info' id='v
+                                                <?php $g=M('goods')-
+
+[ 2015-12-29T09:14:31+08:00 ] 127.0.0.1 /go/index.php/Home/Member/Js/member.js
+ERR: 非法操作:Js
+
+[ 2015-12-29T09:21:33+08:00 ] 127.0.0.1 /go/index.php/Home/Member/Js/member.js
+ERR: 非法操作:Js
+
+[ 2015-12-29T09:22:06+08:00 ] 127.0.0.1 /go/index.php/Home/Shop/editaddress/uid/5
+ERR: 非法操作:editaddress
+
+[ 2015-12-29T15:10:15+08:00 ] 127.0.0.1 /go/index.php/Home/Member/Js/member.js
+ERR: 非法操作:Js
+

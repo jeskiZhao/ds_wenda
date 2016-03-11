@@ -1,0 +1,65 @@
+<include file="Common/header" />
+  <link rel="stylesheet" href="__PUBLIC__/css/member.css" />
+</head>
+<body>
+<include file="Common/top" />
+<!--------------------中部-------------------->
+	<div id='center'>
+<!-- 左侧 -->
+<include file="Common/memleft" />
+<!-- 左侧结束 -->
+		<div id='right'>
+			<p class='title'>我的回答</p>
+			<ul class='ask-filter'>
+				<li class='cur'>全部回答</li>
+				<!--<li>被采纳的回答</li>-->
+			</ul>
+			<div class='list list-filter'>
+				<table>
+                                    <if condition='!isset($answer)'>
+						<tr height='140'>
+							<td>你还没有回答过问题</td>
+						</tr>
+                                     <else />
+						<tr>
+							<th class='t1'>标题</th>					
+							<th class='t3'>更新时间</th>
+						</tr>
+                                                <volist name='answer' id='v'>
+                                                      <php>
+                                                          $ask=M('ask')->where('id='.$v['aid'])->field('cid')->select();
+                                                          $cname=M('category')->where('id='.$ask[0]['cid'])->field('name')->select();                           
+                                                      </php>
+						<tr>
+							<td class='t1'>
+								<a href="">{$v.content}</a><span>[{$cname[0]['name']}]</span>
+							</td>							
+							<td class='t3'>{$v.time|date="Y-m-d",###}</td>
+						</tr>
+                                                </volist>
+                                    </if>
+				</table>
+			</div>
+			<div class='list list-filter hidden'>
+				<table>
+						<tr height='140'>
+							<td>我还没有被采纳的回答</td>
+						</tr>
+					<tr>
+						<th class='t1'>标题</th>
+						<th>回答</th>
+						<th class='t3'>更新时间</th>
+					</tr>
+					<tr>
+						<td class='t1'>
+							<a href="">什么牌子的电脑好？</a><span>[电脑/硬件]</span>
+						</td>
+						<td>20</td>
+						<td class='t3'>2014-9-14</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+<!--------------------中部结束-------------------->
+<include file="Common/bottom" />

@@ -1,0 +1,135 @@
+<include file="Common/header" />
+	<link rel="stylesheet" href="__PUBLIC__/css/question.css" />
+	<script type="text/javascript" src="__PUBLIC__/js/question.js"></script>
+	<script type="text/javascript">
+                var uid={$_SESSION['user_id']};    
+        </script>
+</head>
+<body>
+	<!-- top -->
+	<include file="Common/top" />
+<!-- top 结束-->
+	<div id='location'>
+		<a href="__MODULE__/List/index/cid/0">全部分类</a>
+			<volist name="bread" id="v">
+			&gt;&nbsp;<a href="__MODULE__/List/index/cid/{$v.id}">{$v.name}</a>&nbsp;&nbsp;
+                        </volist>
+	</div>
+
+<!--------------------中部-------------------->
+	<div id='center-wrap'>
+		<div id='center'>
+			<div id='left'>
+				<div id='answer-info'>
+					<!-- 如果没有解决用wait -->
+					<div class='ans-state wait'></div>
+					<div class='answer'>
+						<p class='ans-title'>{$info.content}
+							<b class='point'>{$info.reward}</b>
+						</p>
+					</div>
+					<ul>
+                                                
+						<li><a href="">{$info.account}</a></li>
+						<li><i class='level lv1' title='Level 1'></i></li>
+						<li>{$info.time|date="y-m-d h:i:s",###}</li>
+				
+					</ul>
+                                   <if condition="$info.account neq $_SESSION['user_account'] ">
+					<div class='ianswer'>
+						<form action="__MODULE__/Answer/answer" method='POST' >
+							<p>我来回答</p>
+							<textarea name="content"></textarea>
+							<input type="hidden" name='aid' value='{$info.id}'>
+							<input type="submit" value='提交回答' id='anw-sub'/>
+						</form>
+					</div>
+                                    </if>   
+					<!-- 满意回答 -->
+                                        
+                                  <volist name="answer" id='v'>
+                                        
+                                         <if condition="$v.adopt eq 1 ">
+                                              <php>
+                                                  $u=M('user')->where('id='.$v['uid'])->select();                                
+                                             </php>
+					<div class='ans-right'>
+						<p class='title'><i></i>满意回答<span></span></p>
+						<p class='ans-cons'>{$v.content}</p>
+						<dl>
+							<dt>
+								<a href=""><img src="{$u[0]['face']}" width='48' height='48'/></a>
+							</dt>
+							<dd>
+								<a href="">{$u[0]['account']}</a>
+							</dd>
+							<dd><i class='level lv1'></i></dd>
+							
+						</dl>
+					</div>
+                                   </if>
+                              </volist>
+					<!-- 满意回答 -->
+				</div>
+
+				<div id='all-answer'>
+					<div class='ans-icon'></div>                           
+					<p class='title'>共 <strong>{$anum}</strong> 条回答</p>
+					<ul>
+                                           <volist name="answer" id='v'>
+                                                <if condition="$v.adopt neq 1 ">
+						<li>
+                                                <php>
+                                                     $user=M('user')->where('id='.$v['uid'])->select();    
+                                                </php>
+							<div class='face'>
+								<a href="">
+									<img src="{$user[0]['face']}" width='48' height='48'/>
+								</a>
+                                                            <span>{$user[0]['account']}</span>
+							</div>
+							<div class='cons blue'>
+								<p>{$v.content}<span style='color:#888;font-size:12px'>&nbsp;&nbsp;{$v.time|date="y-m-d h:i:s",###}</span></p>
+							</div>
+							<if condition="$info.account eq $_SESSION['user_account'] ">
+								<a href="__CONTROLLER__/adopt/aid/{$v.id}/qid/{$info.id}" class='adopt-btn'>采纳</a>
+                                                        </if>
+							
+						</li>
+                                                </if>
+                                        </volist>
+					
+					</ul>
+					<div class='page'>
+						<a href="">1</a>
+						<a href="">2</a>
+						<a href="">3</a>
+						<a href="">4</a>
+					</div>
+				</div>
+				<div id='other-ask'>
+					<p class='title'>待解决的相关问题</p>
+					<table>
+						 <volist name="same" id="v">
+						<tr>
+							<td class='t1'><a href="__MODULE__/Question/index/qid/{$v.id}">{$v.content}</a></td>
+							<td>{$v.answer}&nbsp;回答</td>
+							<td>{$v.time|date="y-m-d h:i:s",###}</td>
+						</tr>
+                                            </volist>
+					</table>
+				</div>
+			</div>
+		<!-- 右侧 -->
+		<include file="Common/right" />
+<!-- ---右侧结束---- -->
+			
+		</div>
+
+	</div>
+	
+<!--------------------中部结束-------------------->
+
+<!-- 底部 -->
+<include file="Common/bottom" />
+<!-- 底部结束 -->

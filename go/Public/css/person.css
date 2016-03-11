@@ -1,0 +1,22 @@
+#center{
+    width:980px;
+    margin:10px auto;
+    height:350px;
+    background-color:#f1efeb;
+}
+#biao{
+    font-size:20px;
+    font-size:10;
+}
+#xi{
+    width:980px;
+    margin:10px auto;
+  
+}
+#xi span{
+      font-size:20px;
+}
+#xi input{
+    margin-bottom: 30px;
+    height:23px; 
+}

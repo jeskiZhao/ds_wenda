@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<link rel="stylesheet" href="__PUBLIC__/css/public.css" />
+	<script type="text/javascript" src="__PUBLIC__/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/public.js"></script>
+        <script>
+            $(function(){
+                $('tr[pid!=0]').hide();
+                $('td[name="fold"]').toggle(function(){
+                     var index=$(this).parents('tr').attr('id');
+                     $(this).children('a').removeClass('showPlus');
+                     $(this).children('a').addClass('showMinus');
+                     $('tr[pid='+index+']').show();
+                },function(){
+                    var index=$(this).parents('tr').attr('id');
+                     $(this).children('a').removeClass('showMinus');
+                     $(this).children('a').addClass('showPlus');
+                     $('tr[pid='+index+']').hide();               
+                });
+            });
+        </script>
+        <style type="text/css">
+      
+        </style>
+</head>
+
+<body>
+	<table class="table">
+		<tr pid="0">
+			<td class="th" colspan="20">分类列表</td>
+		</tr>
+		<tr  pid="0" class="tableTop">
+			<td class="tdLittle0 center">展开</td>
+			<td class="tdLittle1">ID</td>
+			<td>分类名称</td>
+			<td class="tdLtitle7">操作</td>
+		</tr>
+              <volist name="cateinfo" id="vo">
+		<tr id="{$vo.id}" pid="{$vo.pid}">
+                      
+			<td name="fold"><a href="" class="showPlus"></a></td>
+			<td>{$vo.biao|ltrim=###,"-"}</td>
+			<td>
+                            <if condition="$vo.level gt 0">
+                                {:str_repeat("&nbsp;&nbsp;&nbsp;&nbsp",$vo['level'])}|{:str_repeat("--",$vo['level'])}
+                            </if>
+                            {$vo.name}</td>
+			
+			<td>
+				[<a href="__MODULE__/Category/addchild/id/{$vo.id}">添加子分类</a>][
+				<a href="__MODULE__/Category/edit/id/{$vo.id}">修改</a>][
+				<a href="__MODULE__/Category/del/id/{$vo.id}" class="del" >删除</a>]
+			</td>
+		</tr>
+                </volist>
+		
+	</table>
+
+</body>
+</html>

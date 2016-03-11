@@ -1,0 +1,67 @@
+[ 2015-10-27T14:50:01+08:00 ] 127.0.0.1 /go/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008080s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in H:\wenda\Application\Home\Controller\IndexController.class.php on line 6 and defined H:\wenda\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content H:\wenda\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000421s ]
+NOTIC: [8] Undefined variable: id H:\wenda\Application\Runtime\Cache\Home\9b1c26b1cee56f532f15c56b96a07c74.php 第 53 行.
+NOTIC: [8] Undefined variable: name H:\wenda\Application\Runtime\Cache\Home\9b1c26b1cee56f532f15c56b96a07c74.php 第 53 行.
+NOTIC: [8] Undefined variable: cate H:\wenda\Application\Runtime\Cache\Home\9b1c26b1cee56f532f15c56b96a07c74.php 第 157 行.
+NOTIC: [8] Undefined variable: wait H:\wenda\Application\Runtime\Cache\Home\9b1c26b1cee56f532f15c56b96a07c74.php 第 200 行.
+NOTIC: [8] Undefined variable: rewardAsk H:\wenda\Application\Runtime\Cache\Home\9b1c26b1cee56f532f15c56b96a07c74.php 第 211 行.
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2015-10-27T14:50:02+08:00 ] 127.0.0.1 /go/index.php/Home/Common/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+ERR: 无法加载控制器:Common
+
+[ 2015-10-27T14:50:57+08:00 ] 127.0.0.1 /go/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in H:\wenda\Application\Home\Controller\IndexController.class.php on line 6 and defined H:\wenda\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content H:\wenda\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+NOTIC: [8] Undefined variable: id H:\wenda\Application\Runtime\Cache\Home\9b1c26b1cee56f532f15c56b96a07c74.php 第 53 行.
+NOTIC: [8] Undefined variable: name H:\wenda\Application\Runtime\Cache\Home\9b1c26b1cee56f532f15c56b96a07c74.php 第 53 行.
+NOTIC: [8] Undefined variable: cate H:\wenda\Application\Runtime\Cache\Home\9b1c26b1cee56f532f15c56b96a07c74.php 第 157 行.
+NOTIC: [8] Undefined variable: wait H:\wenda\Application\Runtime\Cache\Home\9b1c26b1cee56f532f15c56b96a07c74.php 第 200 行.
+NOTIC: [8] Undefined variable: rewardAsk H:\wenda\Application\Runtime\Cache\Home\9b1c26b1cee56f532f15c56b96a07c74.php 第 211 行.
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2015-10-27T14:50:57+08:00 ] 127.0.0.1 /go/index.php/Home/Common/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+ERR: 无法加载控制器:Common
+
+[ 2015-10-27T14:50:57+08:00 ] 127.0.0.1 /go/index.php/Home/Common/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+ERR: 无法加载控制器:Common
+

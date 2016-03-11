@@ -1,0 +1,27 @@
+[ 2015-12-02T20:56:46+08:00 ] 127.0.0.1 /go/index.php/Admin/User/index
+ERR: 无法加载控制器:User
+
+[ 2015-12-02T21:09:06+08:00 ] 127.0.0.1 /go/index.php/Admin/User/add
+ERR: 非法操作:add
+
+[ 2015-12-02T21:09:07+08:00 ] 127.0.0.1 /go/index.php/Admin/User/add
+ERR: 非法操作:add
+
+[ 2015-12-02T21:22:14+08:00 ] 127.0.0.1 /go/index.php/Admin/User/locked
+ERR: 非法操作:locked
+
+[ 2015-12-02T21:23:15+08:00 ] 127.0.0.1 /go/index.php/Admin/Ask/index
+ERR: 非法操作:index
+
+[ 2015-12-02T21:23:15+08:00 ] 127.0.0.1 /go/index.php/Admin/Ask/unsolve
+ERR: 非法操作:unsolve
+
+[ 2015-12-02T21:23:16+08:00 ] 127.0.0.1 /go/index.php/Admin/Ask/solve
+ERR: 非法操作:solve
+
+[ 2015-12-02T21:24:57+08:00 ] 127.0.0.1 /go/index.php/Admin/Answer/index
+ERR: 无法加载控制器:Answer
+
+[ 2015-12-02T21:24:59+08:00 ] 127.0.0.1 /go/index.php/Admin/Ask/index
+ERR: 非法操作:index
+

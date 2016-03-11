@@ -1,0 +1,7 @@
+[ 2016-01-01T11:11:12+08:00 ] 127.0.0.1 /go/index.php/Home/Member/myface
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( id= ) 
+
+[ 2016-01-01T11:11:35+08:00 ] 127.0.0.1 /go/index.php/Home/Member/Js/member.js
+ERR: 非法操作:Js
+

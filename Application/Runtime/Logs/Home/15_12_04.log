@@ -1,0 +1,167 @@
+[ 2015-12-04T10:06:29+08:00 ] 127.0.0.1 /go/index.php
+ERR: XML标签语法错误
+
+[ 2015-12-04T10:25:30+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/getCate?pid=19
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002079s ]
+SQL: SHOW COLUMNS FROM `ds_category` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `ds_category` WHERE ( pid=19 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001543s ]
+
+[ 2015-12-04T10:28:16+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/getCate?pid=37
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002066s ]
+SQL: SHOW COLUMNS FROM `ds_category` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `ds_category` WHERE ( pid=37 )  [ RunTime:0.0036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017030s ]
+
+[ 2015-12-04T10:28:18+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/getCate?pid=59
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001873s ]
+SQL: SHOW COLUMNS FROM `ds_category` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `ds_category` WHERE ( pid=59 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001557s ]
+
+[ 2015-12-04T10:35:39+08:00 ] 127.0.0.1 /go/index.php/Home/Index/index.html
+ERR: XML标签语法错误
+
+[ 2015-12-04T10:49:59+08:00 ] 127.0.0.1 /go/index.php/Home/List/Css/common.css
+ERR: 非法操作:Css
+
+[ 2015-12-04T10:49:59+08:00 ] 127.0.0.1 /go/index.php/Home/List/Js/jquery-1.7.2.min.js
+ERR: 非法操作:Js
+
+[ 2015-12-04T10:49:59+08:00 ] 127.0.0.1 /go/index.php/Home/List/Js/top-bar.js
+ERR: 非法操作:Js
+
+[ 2015-12-04T10:49:59+08:00 ] 127.0.0.1 /go/index.php/Home/List/Css/list.css
+ERR: 非法操作:Css
+
+[ 2015-12-04T10:50:42+08:00 ] 127.0.0.1 /go/index.php/Home/List/Css/list.css
+ERR: 非法操作:Css
+
+[ 2015-12-04T11:57:04+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( id= ) 
+
+[ 2015-12-04T14:48:38+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/44444
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T14:49:50+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/44444
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T14:49:51+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/44444
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T14:49:51+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/44444
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T14:49:52+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/44444
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T14:49:52+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/44444
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T14:49:52+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/44444
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T14:50:03+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/41414
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T14:51:08+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/41414
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T14:51:13+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T14:51:20+08:00 ] 127.0.0.1 /go/index.php/Home/List/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T14:51:47+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/1341
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T14:52:47+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/1341
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T14:52:47+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/1341
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T14:52:48+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/1341
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T14:52:48+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/1341
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T14:52:49+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/1341
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T14:52:49+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/1341
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T14:52:49+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/1341
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T14:52:50+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/1341
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T14:53:12+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/1374
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T14:57:09+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/1374
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T14:57:11+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/1374
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T19:03:07+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/49444
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T19:03:24+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/49444
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T19:03:26+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/49444
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T19:10:01+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/49444
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+
+[ 2015-12-04T19:10:20+08:00 ] 127.0.0.1 /go/index.php/Home/List/index/cid/4912
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_category` WHERE ( pid= ) 
+

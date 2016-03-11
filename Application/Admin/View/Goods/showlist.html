@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<link rel="stylesheet" href="__PUBLIC__/css/public.css" />
+	<script type="text/javascript" src="__PUBLIC__/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/public.js"></script>	
+      	<style type="text/css">
+            .tu{
+                height:55px;
+                width:73px;
+            }
+        </style>
+
+</head>
+
+<body>
+	<table class="table">
+		<tr>
+			<td class="th" colspan="20">商品列表</td>
+		</tr>
+		<tr class="tableTop">
+			<td class="tdLittle1">序号</td>
+			<td>商品名称</td>
+			<td>商品数量</td>
+			<td>商品金币值</td>
+			<td>商品图片</td>
+			<td>商品简介</td>
+			<td>操作</td>
+		</tr>
+            <volist name="list" id="v">
+		<tr>
+			<td>{$key+1}</td>
+			<td>{$v.name}</td>
+			<td>{$v.num}</td>
+			<td>{$v.cost}</td>
+			<td><img src="{$v.pic}" class="tu"></td>
+			<td>{$v.simintroduce}</td>
+			<td>
+				<a href="__CONTROLLER__/editgood/id/{$v.id}" >修改</a>|
+				<a href="__CONTROLLER__/del/id/{$v.id}" class="del">删除</a>
+			</td>
+		</tr>
+                </volist>
+	</table>
+	<div class="page">
+	   {$page}
+	</div>
+
+</body>
+</html>

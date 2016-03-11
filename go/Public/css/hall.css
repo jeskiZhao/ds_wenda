@@ -1,0 +1,70 @@
+#center{
+    height:auto;
+    margin:10px auto;
+    width:980px;
+    overflow:hidden;
+}
+#center .left{
+    float:left;
+    width:200px;
+    height:387px;
+    border:1px solid #99cccc;
+}
+.left li{
+    margin:4px 7px;
+    font-size:18px;
+    font-weight:bold;
+    width:186px;
+    text-align:center;
+    line-height: 38px;
+    list-style: none;
+   
+}
+.left a{
+    text-decoration: none;
+      width:186px;
+    height:36px;
+}
+.left li:hover{
+    background:#66ccff;
+}
+.wei{
+    background: url("../images/wei.png") no-repeat 133px -6px; 
+}
+#center .right{
+    float:left;
+    width:773px;
+    height:auto;
+
+}
+.right .b{
+    height:28px;
+    font-size:17px;
+    font-weight:bold;
+    border-bottom:1px solid #6633ff;
+}
+.right .hangyi{
+    height:auto;
+    width:100%;
+    float:left;
+}
+.right .hangyi .hangyi1{
+    float:left;
+    width:189px;
+    margin:11px 33px;
+}
+.hangyi img{
+    width: 182px;
+    height:100px;
+}
+.page{
+    text-align: center;
+    margin-top:10px;
+    width:100%;
+    float:left;
+}
+.page a{
+    border: 1px solid #ccc;
+    margin-left:2px;
+    padding:5px 8px;
+}

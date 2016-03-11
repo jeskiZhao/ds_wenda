@@ -1,0 +1,9 @@
+[ 2015-12-13T16:57:21+08:00 ] 127.0.0.1 /go/index.php/Admin/Goods/add
+ERR: 无法加载控制器:Goods
+
+[ 2015-12-13T17:02:25+08:00 ] 127.0.0.1 /go/index.php/Admin/Goods/add
+ERR: 非法操作:add
+
+[ 2015-12-13T17:02:26+08:00 ] 127.0.0.1 /go/index.php/Admin/Goods/add
+ERR: 非法操作:add
+

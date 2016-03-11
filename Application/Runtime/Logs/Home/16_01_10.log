@@ -1,0 +1,744 @@
+[ 2016-01-10T09:53:09+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/gai
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002131s ]
+ERR: 非法操作:gai
+
+[ 2016-01-10T09:53:10+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/gai
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001715s ]
+ERR: 非法操作:gai
+
+[ 2016-01-10T09:53:11+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/gai
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001689s ]
+ERR: 非法操作:gai
+
+[ 2016-01-10T09:53:11+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/gai
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001707s ]
+ERR: 非法操作:gai
+
+[ 2016-01-10T09:53:11+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/gai
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001726s ]
+ERR: 非法操作:gai
+
+[ 2016-01-10T09:53:11+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/gai
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001706s ]
+ERR: 非法操作:gai
+
+[ 2016-01-10T09:53:13+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/gai
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001739s ]
+ERR: 非法操作:gai
+
+[ 2016-01-10T09:53:41+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/gai
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002335s ]
+ERR: 非法操作:gai
+
+[ 2016-01-10T09:53:41+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/gai
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002742s ]
+ERR: 非法操作:gai
+
+[ 2016-01-10T09:53:41+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/gai
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002580s ]
+ERR: 非法操作:gai
+
+[ 2016-01-10T09:54:03+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001668s ]
+ERR: 非法操作:zan
+
+[ 2016-01-10T09:54:04+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+ERR: 非法操作:zan
+
+[ 2016-01-10T09:55:35+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002354s ]
+ERR: 非法操作:zan
+
+[ 2016-01-10T09:55:35+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001872s ]
+ERR: 非法操作:zan
+
+[ 2016-01-10T09:55:35+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+ERR: 非法操作:zan
+
+[ 2016-01-10T09:55:36+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001712s ]
+ERR: 非法操作:zan
+
+[ 2016-01-10T09:55:36+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002239s ]
+ERR: 非法操作:zan
+
+[ 2016-01-10T09:55:36+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001882s ]
+ERR: 非法操作:zan
+
+[ 2016-01-10T09:57:17+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002095s ]
+ERR: 非法操作:zan
+
+[ 2016-01-10T09:59:37+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002728s ]
+NOTIC: [8] Undefined index: id H:\wenda\Application\Home\Controller\ChaController.class.php 第 163 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001708s ]
+
+[ 2016-01-10T09:59:52+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002605s ]
+NOTIC: [8] Undefined index: pid H:\wenda\Application\Home\Controller\ChaController.class.php 第 163 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001742s ]
+
+[ 2016-01-10T10:00:05+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002659s ]
+
+[ 2016-01-10T10:00:09+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002055s ]
+
+[ 2016-01-10T10:02:19+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002083s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0060s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=73 ) [ RunTime:0.0830s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001595s ]
+
+[ 2016-01-10T10:23:50+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038718s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0055s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=16 ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001901s ]
+
+[ 2016-01-10T10:23:53+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003340s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0068s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=16 ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001936s ]
+
+[ 2016-01-10T10:23:58+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002282s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0059s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=16 ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001778s ]
+
+[ 2016-01-10T10:27:08+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/za
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003712s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0062s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian-1 WHERE ( id=16 ) [ RunTime:0.0489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001935s ]
+
+[ 2016-01-10T10:29:01+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002843s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0063s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=16 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001669s ]
+
+[ 2016-01-10T10:29:13+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002303s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0080s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=16 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2016-01-10T10:29:46+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002378s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0079s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=16 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001792s ]
+
+[ 2016-01-10T10:30:06+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002292s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0067s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=16 ) [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002045s ]
+
+[ 2016-01-10T10:30:52+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002981s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0074s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=73 ) [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002393s ]
+
+[ 2016-01-10T10:38:00+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003110s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0068s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=73 ) [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001627s ]
+
+[ 2016-01-10T10:38:03+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002511s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0061s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=73 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001901s ]
+
+[ 2016-01-10T10:38:08+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001779s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0068s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=73 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001352s ]
+
+[ 2016-01-10T10:38:14+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/za
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002042s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0065s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian-1 WHERE ( id=73 ) [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002344s ]
+
+[ 2016-01-10T10:38:33+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/za
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002673s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0082s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian-1 WHERE ( id=73 ) [ RunTime:0.0184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001332s ]
+
+[ 2016-01-10T10:38:37+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/za
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001687s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0070s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian-1 WHERE ( id=73 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001792s ]
+
+[ 2016-01-10T10:38:38+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/za
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0064s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian-1 WHERE ( id=73 ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2016-01-10T10:38:39+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/za
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003010s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0065s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian-1 WHERE ( id=73 ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002213s ]
+
+[ 2016-01-10T10:38:40+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/za
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002328s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0079s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian-1 WHERE ( id=73 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002729s ]
+
+[ 2016-01-10T10:38:41+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/za
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002475s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0073s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian-1 WHERE ( id=73 ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2016-01-10T10:38:58+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/za
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002009s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0059s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian-1 WHERE ( id=73 ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001281s ]
+
+[ 2016-01-10T10:39:01+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002335s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0063s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=73 ) [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002109s ]
+
+[ 2016-01-10T10:39:02+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002113s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0095s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=73 ) [ RunTime:0.0244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001334s ]
+
+[ 2016-01-10T10:39:03+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003206s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0072s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=73 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002041s ]
+
+[ 2016-01-10T10:39:04+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002039s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0078s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=73 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2016-01-10T10:39:05+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003088s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0068s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=73 ) [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002353s ]
+
+[ 2016-01-10T10:39:06+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002265s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0064s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=73 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001938s ]
+
+[ 2016-01-10T10:39:06+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001682s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0061s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=73 ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001305s ]
+
+[ 2016-01-10T10:39:15+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/za
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002577s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0072s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian-1 WHERE ( id=73 ) [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001902s ]
+
+[ 2016-01-10T10:43:04+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001740s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0060s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=14 ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001387s ]
+
+[ 2016-01-10T10:43:10+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002162s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0076s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=86 ) [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002016s ]
+
+[ 2016-01-10T10:43:12+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002408s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0067s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=86 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001981s ]
+
+[ 2016-01-10T10:43:13+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/za
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002639s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0090s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian-1 WHERE ( id=86 ) [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001951s ]
+
+[ 2016-01-10T10:43:14+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/za
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001788s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0060s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian-1 WHERE ( id=86 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001563s ]
+
+[ 2016-01-10T10:43:14+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/za
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0062s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian-1 WHERE ( id=86 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001335s ]
+
+[ 2016-01-10T10:43:15+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/za
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002369s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0065s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian-1 WHERE ( id=86 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002010s ]
+
+[ 2016-01-10T10:43:16+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/za
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003154s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0067s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian-1 WHERE ( id=86 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002213s ]
+
+[ 2016-01-10T10:43:17+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/za
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002312s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0068s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian-1 WHERE ( id=86 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001843s ]
+
+[ 2016-01-10T10:43:18+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/za
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001862s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0065s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian-1 WHERE ( id=86 ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001339s ]
+
+[ 2016-01-10T10:43:19+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/za
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002505s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0085s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian-1 WHERE ( id=86 ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001924s ]
+
+[ 2016-01-10T10:58:36+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2016-01-10T10:59:03+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002350s ]
+
+[ 2016-01-10T10:59:11+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001318s ]
+
+[ 2016-01-10T11:09:52+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001776s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0075s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=86 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001322s ]
+
+[ 2016-01-10T14:54:59+08:00 ] 127.0.0.1 /go/index.php/Home/Shop/address/gid/7
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_user` WHERE ( id= ) 
+
+[ 2016-01-10T15:28:20+08:00 ] 127.0.0.1 /go/index.php/Home/Shop/address/gid/www.baidu.com
+ERR: 1054:Unknown column 'www.baidu.com' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ds_goods` WHERE ( id=www.baidu.com ) 
+
+[ 2016-01-10T15:29:18+08:00 ] 127.0.0.1 /go/index.php/Home/Shop/address/gid/www.baidu.com
+ERR: 1054:Unknown column 'www.baidu.com' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ds_goods` WHERE ( id=www.baidu.com ) 
+
+[ 2016-01-10T15:30:14+08:00 ] 127.0.0.1 /go/index.php/Home/Shop/address/gid/person.html
+ERR: 1054:Unknown column 'person' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ds_goods` WHERE ( id=person ) 
+
+[ 2016-01-10T15:31:25+08:00 ] 127.0.0.1 /go/index.php/Home/Shop/address/gid/person.html
+ERR: 1054:Unknown column 'person' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ds_goods` WHERE ( id=person ) 
+
+[ 2016-01-10T15:31:37+08:00 ] 127.0.0.1 /go/index.php/Home/Shop/address/gid/person.html
+ERR: 1054:Unknown column 'person' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ds_goods` WHERE ( id=person ) 
+
+[ 2016-01-10T15:48:37+08:00 ] 127.0.0.1 /go/index.php/Home/Shop/order
+ERR: 1048:Column 'gid' cannot be null
+ [ SQL语句 ] : INSERT INTO `ds_order` (`gid`,`gname`,`address`,`realname`,`phone`,`uid`,`time`) VALUES (NULL,NULL,NULL,NULL,NULL,'1','1452412117')
+
+[ 2016-01-10T16:32:28+08:00 ] 127.0.0.1 /go/index.php/Home/Shop/Shop/hall/id/1
+ERR: 非法操作:Shop
+
+[ 2016-01-10T16:43:31+08:00 ] 127.0.0.1 /go/index.php/Home/Shop/Shop/address/gid/$gid
+ERR: 非法操作:Shop
+
+[ 2016-01-10T16:43:47+08:00 ] 127.0.0.1 /go/index.php/Home/Shop/Shop/address/gid/$gid
+ERR: 非法操作:Shop
+
+[ 2016-01-10T16:44:30+08:00 ] 127.0.0.1 /go/index.php/Home/Shop/address/gid/$gid
+ERR: 1054:Unknown column '$gid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ds_goods` WHERE ( id=$gid ) 
+
+[ 2016-01-10T16:44:51+08:00 ] 127.0.0.1 /go/index.php/Home/Shop/address/gid/$gid
+ERR: 1054:Unknown column '$gid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ds_goods` WHERE ( id=$gid ) 
+
+[ 2016-01-10T16:45:05+08:00 ] 127.0.0.1 /go/index.php/Home/Shop/address/gid/$gid
+ERR: 1054:Unknown column '$gid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ds_goods` WHERE ( id=$gid ) 
+
+[ 2016-01-10T16:51:40+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002406s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0061s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=38 ) [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002595s ]
+
+[ 2016-01-10T16:51:52+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002242s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0060s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=38 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002036s ]
+
+[ 2016-01-10T16:51:58+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002264s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0068s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=78 ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001850s ]
+
+[ 2016-01-10T16:53:40+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002411s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0061s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=14 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002114s ]
+
+[ 2016-01-10T16:53:53+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/za
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002441s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0059s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian-1 WHERE ( id=14 ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001951s ]
+
+[ 2016-01-10T16:54:20+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001712s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0061s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=11 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001187s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001302s ]
+
+[ 2016-01-10T16:54:22+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001749s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0062s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=14 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001566s ]
+
+[ 2016-01-10T16:54:58+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001696s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0069s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=73 ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001175s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001300s ]
+
+[ 2016-01-10T16:55:03+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/za
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0082s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian-1 WHERE ( id=16 ) [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001861s ]
+
+[ 2016-01-10T16:55:07+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/za
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001701s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0065s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian-1 WHERE ( id=16 ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001989s ]
+
+[ 2016-01-10T18:23:10+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002301s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0062s ]
+SQL: UPDATE `ds_ask` SET `dian`=dian+1 WHERE ( id=16 ) [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001825s ]
+
+[ 2016-01-10T19:32:33+08:00 ] 127.0.0.1 /go/index.php/Home/Member/Js/member.js
+ERR: 非法操作:Js
+

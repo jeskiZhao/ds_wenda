@@ -1,0 +1,92 @@
+<include file="Common/header" />
+  <link rel="stylesheet" href="__PUBLIC__/css/member.css" />
+</head>
+<body>
+<include file="Common/top" />	
+<!--------------------中部-------------------->
+	<div id='center'>
+<!-- 左侧 -->
+<include file="Common/memleft" />
+<!-- 左侧结束 -->
+		<div id='right'>
+	
+			<p class='title'>我的首页</p>
+
+			<ul class='property'>
+				<li>金币：<span>{$user[0]['coin']}</span></li>
+				<li>经验值：<span>{$user[0]['experince']}</span></li>
+				<li>采纳率：<span><?php echo floor($user[0]['adopt']/$user[0]['answer']*100) ?>%</span></li>
+			</ul>
+			<div class='list'>
+                            <php>
+                                $id=session('user_id');
+                                $num=M('ask')->where('uid='.$id)->count();
+                              
+                            </php>
+				<p><span>我的提问 <b>(共{$num}条)</b></span><a href="__MODULE__/Member/myask">更多>></a></p>
+				<table>
+				      <if condition="!isset($askinfo)">
+						<tr height='140'>
+							<td>你还没有进行过提问</td>
+						</tr>
+                                           <else />
+						<tr>
+							<th class='t1'>标题</th>
+							<th>回答数</th>
+							<th class='t3'>更新时间</th>
+						</tr>
+					<volist name="askinfo" id="v">
+                                            <php>                                         
+                                             $cname=M('category')->where('id='.$v['cid'])->field('name')->select();ss 
+                              
+                                             </php>
+						<tr>
+							<td class='t1'>
+								<a href="__MODULE__/Question/index/qid/{$v.id}">{$v.content}</a><span>[{$cname[0]['name']}]</span>
+							</td>
+							<td>{$v.answer}</td>
+							<td class='t3'>{$v.time|date="Y-m-d",###}</td>
+						</tr>
+                                         </volist>
+                                    </if>
+				</table>
+			</div>
+			<div class='list'>
+                             <php>
+                                $id=session('user_id');
+                                $num=M('answer')->where('uid='.$id)->count();
+                              
+                            </php>
+				<p><span>我的回答 <b>(共{$num}条)</b></span><a href="">更多>></a></p>
+				<table>
+                                      <if condition="!isset($answerinfo)">
+					<tr height='140'>
+						<td>你还没有进行过回答</td>
+					</tr>
+                                      <else />
+					<tr>
+						<th class='t1'>标题</th>					
+						<th class='t3'>更新时间</th>
+					</tr>
+                                     <volist name="answerinfo" id="v">                                        
+                                         <php>
+                                             $ask=M('ask')->where('id='.$v['aid'])->field('cid')->select();
+                                             $cname=M('category')->where('id='.$ask[0]['cid'])->field('name')->select();                           
+                                         </php>
+					<tr>
+						<td class='t1'>
+							<a href="">{$v.content}</a><span>[{$cname[0]['name']}]</span>
+						</td>
+					
+						<td class='t3'>{$v.time|date="Y-m-d ",###}</td>
+					</tr>
+                                      </volist>
+                                    </if>
+				</table>
+			</div>
+		</div>
+	</div>
+<!--------------------中部结束-------------------->
+
+<!--------------------底部-------------------->
+<include file="Common/bottom" />

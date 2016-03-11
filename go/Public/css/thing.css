@@ -1,0 +1,139 @@
+#center{
+    height:auto;
+    margin:10px auto;
+    width:980px;
+    overflow:hidden;
+}
+#center .left{
+    float:left;
+    width:200px;
+    height:387px;
+    border:1px solid #99cccc;
+}
+.left li{
+    margin:4px 7px;
+    font-size:18px;
+    font-weight:bold;
+    width:186px;
+    text-align:center;
+    line-height: 38px;
+    list-style: none;
+   
+}
+.left a{
+    text-decoration: none;
+    width:186px;
+    height:36px;
+}
+.left li:hover{
+    background:#66ccff;
+}
+.wei{
+    background: url("../images/wei.png") no-repeat 133px -6px; 
+}
+#center .right{
+    float:left;
+    width:773px;
+    height:auto;
+
+}
+#one{
+    margin-left: 23px;
+    width:750px;
+    height:252px;
+    
+}
+#one .tu{
+    width: 310px;
+    height:236px;
+    float:left;
+}
+#one .ming{
+     float:left;
+     margin:5px 25px;
+}
+#one .ming p{
+    margin:18px 52px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    width:280px;
+}
+#two{
+     margin-top: 6px;
+     margin-left: 23px;
+     width:750px;
+     height: auto;
+}
+#two h1{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.dui{
+    width:206px;
+    height:43px;
+    margin-right:76px;
+    margin-top:10px;
+    border:none;
+    background: #f60;
+    font-size:27px;
+    color: white;
+}
+#cai{
+    background:#fff;
+    height:300px;
+    width:500px;
+    left:444px;
+    top:30px;
+    position: absolute;
+    z-index: 999;
+    overflow: hidden;
+}
+#cai .ti{
+     height:45px;
+     width:500px;
+     text-align: left;
+     background:#f4f4f4 ;
+     line-height: 45px;
+     font-weight: bold;
+     font-size: 20px;
+}
+#cai .zhong{
+    width:500px;
+    height:210px;
+}
+#cai .zhong img{
+    float:left;
+}
+#cai .zhong p{
+    margin:74px 20px;
+    font-size: 20px;
+    font-weight:bold;
+    float:left;
+}
+#cai .ti a {
+    display: inline-block;
+    float: right;
+    height: 26px;
+    margin: 10px 10px 0 0;
+    width: 33px;
+    background: url(../Images/btn.png) no-repeat -878px -209px;
+}
+#cai .di input{
+   
+    width:111px;
+    height: 35px;
+}
+#cai .di{
+     height:45px;
+     width:500px;
+     text-align: left;
+     background:#f4f4f4 ;
+     line-height: 45px;
+     font-weight: bold;
+     font-size: 20px;
+}
+#cai .di .i1{
+    margin-left:135px;
+}

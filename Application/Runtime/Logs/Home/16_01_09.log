@@ -1,0 +1,479 @@
+[ 2016-01-09T09:34:12+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002969s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%sh%' )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002016s ]
+
+[ 2016-01-09T09:34:12+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003056s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%shi%' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002084s ]
+
+[ 2016-01-09T09:34:13+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002523s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%shi%' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002710s ]
+
+[ 2016-01-09T09:34:13+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002348s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%shiji%' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001791s ]
+
+[ 2016-01-09T09:34:13+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004107s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%shiji%' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001768s ]
+
+[ 2016-01-09T09:34:13+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002411s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%shij%' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001946s ]
+
+[ 2016-01-09T09:34:13+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002458s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%shi%' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001979s ]
+
+[ 2016-01-09T09:34:13+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002486s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%sh%' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001936s ]
+
+[ 2016-01-09T09:34:13+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002387s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%s%' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001925s ]
+
+[ 2016-01-09T09:34:13+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002261s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+NOTIC: [2] Invalid argument supplied for foreach() H:\wenda\Application\Home\Controller\AskController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: rone H:\wenda\Application\Home\Controller\AskController.class.php 第 82 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001707s ]
+
+[ 2016-01-09T09:34:14+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002593s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+NOTIC: [2] Invalid argument supplied for foreach() H:\wenda\Application\Home\Controller\AskController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: rone H:\wenda\Application\Home\Controller\AskController.class.php 第 82 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001924s ]
+
+[ 2016-01-09T09:34:15+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002449s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+NOTIC: [2] Invalid argument supplied for foreach() H:\wenda\Application\Home\Controller\AskController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: rone H:\wenda\Application\Home\Controller\AskController.class.php 第 82 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002056s ]
+
+[ 2016-01-09T09:34:17+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002487s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%shi%' )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001992s ]
+
+[ 2016-01-09T09:34:17+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002346s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%shi%' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001700s ]
+
+[ 2016-01-09T09:34:17+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002221s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%shi%' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001747s ]
+
+[ 2016-01-09T09:34:17+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001595s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%shijia%' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001185s ]
+
+[ 2016-01-09T09:34:17+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013745s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%shijia%' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001784s ]
+
+[ 2016-01-09T09:34:17+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002348s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%shiji%' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001871s ]
+
+[ 2016-01-09T09:34:17+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002365s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%shijiaz%' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001916s ]
+
+[ 2016-01-09T09:34:18+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002410s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%shijiazh%' )  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003026s ]
+
+[ 2016-01-09T09:34:18+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003453s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%shijiazhu%' )  [ RunTime:0.0037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002816s ]
+
+[ 2016-01-09T09:34:18+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002273s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%shijiazhuang%' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001876s ]
+
+[ 2016-01-09T09:34:18+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002539s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%shijiazhuang%' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001790s ]
+
+[ 2016-01-09T09:34:18+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002208s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%shijiazhuang%' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001220s ]
+
+[ 2016-01-09T09:34:18+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%石家庄%' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001137s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001257s ]
+
+[ 2016-01-09T09:34:19+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001787s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%石家庄%' )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%ti%' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001320s ]
+
+[ 2016-01-09T09:34:19+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002673s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%石家庄%' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%ti%' )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002041s ]
+
+[ 2016-01-09T09:34:19+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002541s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%石家庄%' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001823s ]
+
+[ 2016-01-09T09:34:19+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001833s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%石家庄%' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001185s ]
+
+[ 2016-01-09T09:34:19+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002535s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%石家庄%' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002003s ]
+
+[ 2016-01-09T09:34:19+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002227s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%石家庄%' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001788s ]
+
+[ 2016-01-09T09:34:19+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002517s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%石家庄%' )  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%铁道%' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001974s ]
+
+[ 2016-01-09T09:34:20+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002367s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%石家庄%' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%铁道%' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%d%' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-01-09T09:34:20+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002506s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%石家庄%' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%铁道%' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%da%' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001964s ]
+
+[ 2016-01-09T09:34:20+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002431s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%石家庄%' )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%铁道%' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002452s ]
+
+[ 2016-01-09T09:34:20+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010802s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%石家庄%' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%铁道%' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001889s ]
+
+[ 2016-01-09T09:34:20+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001715s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%石家庄%' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%铁道%' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%大学%' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001288s ]
+
+[ 2016-01-09T09:34:20+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002954s ]
+NOTIC: [2] SimpleCWS::set_multi() expects exactly 1 parameter, 0 given H:\wenda\Application\Common\Common\function.php 第 91 行.
+SQL: SHOW COLUMNS FROM `ds_tui` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%石家庄%' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%铁道%' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ds_tui` WHERE (  content like '%大学%' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001927s ]
+
+[ 2016-01-09T11:07:11+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001978s ]
+ERR: 非法操作:zan
+
+[ 2016-01-09T11:07:13+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001830s ]
+ERR: 非法操作:zan
+
+[ 2016-01-09T11:07:14+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001704s ]
+ERR: 非法操作:zan
+
+[ 2016-01-09T11:10:00+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002320s ]
+ERR: 非法操作:zan
+
+[ 2016-01-09T11:10:01+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+ERR: 非法操作:zan
+
+[ 2016-01-09T11:10:01+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+ERR: 非法操作:zan
+
+[ 2016-01-09T11:10:01+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001706s ]
+ERR: 非法操作:zan
+
+[ 2016-01-09T11:10:01+08:00 ] 127.0.0.1 /go/index.php/Home/Cha/zan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+ERR: 非法操作:zan
+

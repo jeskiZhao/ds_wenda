@@ -1,0 +1,82 @@
+<include file="Common/header" />
+	<link rel="stylesheet" href="__PUBLIC__/css/member.css" />
+	<style type="text/css">
+            #tu{
+                width:45px;
+                height:50px;
+            }
+            .lv-exp input{
+                border: none;
+            }
+        </style>
+</head>
+<body>
+	<!-- top -->
+	<include file="Common/top" />
+<!--------------------中部-------------------->
+	<div id='center'>
+<!-- 左侧 -->
+<include file="Common/memleft" />
+<!-- 左侧结束 -->
+		<div id='right'>
+			<p class='title'>我的兑换</p>
+			<p class='lv-info'>
+                            <if condition="$info">
+					<span>感谢您的支持</span>
+                                        <else />					
+                                        暂无记录，赶紧向着高富帅去奋斗吧！
+                             </if>
+			</p>
+			<div class='lv-rule'>
+				<p><span>兑换记录</span></p>
+				<table class='lv-exp'>
+					<tr>
+						<th>图片</th>
+						<th>名称</th>
+						<th>数量</th>
+						<th>金币</th>
+						<th>状态</th>
+						<th>操作</th>
+					</tr>
+                                        <volist name='info' id='v'>
+                                                <php>
+                                                     $g=M('goods')->where('id='.$v['gid'])->select();
+                                                </php>
+					<tr>
+						<td><img src="{$g[0]['pic']}" id="tu" ></td>
+						<td>{$g[0]['name']}</td>
+						<td>1</td>
+                                                <td>{$g[0]['cost']}</td>
+                                               <if condition="$v.send eq 0 ">
+                                                <td>未发货</td>	
+                                                <else />
+                                                <if condition='$v.sure eq 0 '>
+                                                 <td>已发货</td>	
+                                                
+                                                <else />
+                                                 <td>已收货</td>	
+                                                </if>
+                                                </if>
+                                                <td>
+                                                    <a href="__CONTROLLER__/gai/id/{$v.id}" class="" >
+                                                      <if condition="($v['send'] eq 1) and ($v['sure'] eq 0) ">
+                                                         <input type="button" value="确认收货" class="an" >
+                                                          <else />
+                                                          <if condition="($v['send'] eq 1) and ($v['sure'] eq 1) ">
+                                                             <input type="button" value="已收货" disabled="disabled" class="an" >
+                                                             <else />
+                                                               <input type="button" value="等待发货" disabled="disabled" class="an" >
+                                                             </if>
+                                                      </if>
+                                                    </a>	
+                                                </td>
+					</tr>
+					</volist>
+					
+				</table>
+			</div>
+		</div>
+	</div>
+<!--------------------中部结束-------------------->
+<include file="Common/bottom" />
+<!-- 底部结束 -->

@@ -1,0 +1,50 @@
+[ 2015-12-15T10:58:03+08:00 ] 127.0.0.1 /go/index.php/Home/Shop/index
+ERR: 1146:Table 'dswenda.ds_recommend_view' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ds_recommend_view`
+
+[ 2015-12-15T13:43:55+08:00 ] 127.0.0.1 /go/index.php/Home/Shop/thing/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `ds_goods` WHERE ( id= ) 
+
+[ 2015-12-15T13:44:03+08:00 ] 127.0.0.1 /go/index.php/Home/S
+ERR: 无法加载控制器:S
+
+[ 2015-12-15T14:33:13+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content='erret' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2015-12-15T14:33:25+08:00 ] 127.0.0.1 /go/index.php/Home/Robot/tuling
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `ds_ask` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ds_ask` WHERE ( content='怎样智能问答' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ds_answer` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ds_answer` WHERE ( aid=4 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2015-12-15T14:33:46+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/getCate?pid=34
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `ds_category` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ds_category` WHERE ( pid=34 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2015-12-15T14:35:03+08:00 ] 127.0.0.1 /go/index.php/Home/Topic/index
+ERR: 无法加载控制器:Topic
+
+[ 2015-12-15T20:29:32+08:00 ] 127.0.0.1 /go/index.php/Home/Shop/thing/gid/www.baidu.com
+ERR: 1054:Unknown column 'www.baidu.com' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `ds_goods` WHERE ( id=www.baidu.com ) 
+

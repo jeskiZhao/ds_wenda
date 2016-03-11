@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+ 	<link rel="stylesheet" href="__PUBLIC__/css/public.css" />
+	<script type="text/javascript" src="__PUBLIC__/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/public.js"></script>
+</head>
+<body>
+<form action="__SELF__" method="post">
+<input type="hidden" name="id" value="{$roleid}" />
+<table class="table">
+    <tr>
+			<td class="th" colspan="20"><a href="__MODULE__/Role/index">角色列表</a> | <a href="__MODULE__/Role/distribute">分配权限</a></td>
+   </tr>
+    <tr>
+        <td class="tableleft" width="80px">权限</td>
+        <td>
+            <ul>
+                <volist name="auth" id="vo">
+                <li>
+                    <label class='checkbox inline'><input type='checkbox' name='group[]' value='{$vo.auth_id}' 
+                                                         <if condition="in_array($vo['auth_id'],$ids)">
+                                                                checked                                                           
+                                                         </if>
+                                                          
+                                                          />{$vo.auth_name}</label>
+                   
+                    <ul>
+                      
+                        <volist name="sonauth" id="v"> 
+                              <if condition="$vo.auth_id eq $v.auth_pid ">
+                            <li>
+                                 <label class='checkbox inline'><?php echo str_repeat("&nbsp;&nbsp;&nbsp",2); ?><input type='checkbox' name='group[]' value='{$v.auth_id}'
+                                                                                                                       <if condition="in_array($v['auth_id'],$ids)">
+                                                                checked                                                           
+                                                         </if>
+                                                                                                                       />{$v.auth_name}</label>
+                            </li>
+                            </if>
+                        </volist>
+                    </ul>
+                </li>
+               </volist>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <button type="submit" class="btn btn-primary" type="button">保存</button> &nbsp;&nbsp;<button type="button" class="btn btn-success" name="backid" id="backid">返回列表</button>
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>

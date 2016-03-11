@@ -1,0 +1,24 @@
+[ 2015-11-25T11:18:42+08:00 ] 127.0.0.1 /go/index.php/Home/Login/Index/index
+ERR: 非法操作:Index
+
+[ 2015-11-25T14:15:16+08:00 ] 127.0.0.1 /go/index.php/Home/Login/Index/index
+ERR: 非法操作:Index
+
+[ 2015-11-25T14:44:48+08:00 ] 127.0.0.1 /go/index.php/Home/Login/Index/index
+ERR: 非法操作:Index
+
+[ 2015-11-25T14:45:18+08:00 ] 127.0.0.1 /go/index.php/Home/Login/U(Index/index)
+ERR: 非法操作:U(Index
+
+[ 2015-11-25T14:46:21+08:00 ] 127.0.0.1 /go/index.php/Home/Login/U(Index/index)
+ERR: 非法操作:U(Index
+
+[ 2015-11-25T16:00:38+08:00 ] 127.0.0.1 /go/index.php/Home/Member/Css/common.css
+ERR: 非法操作:Css
+
+[ 2015-11-25T16:56:27+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/__Controller__/add
+ERR: 非法操作:__Controller__
+
+[ 2015-11-25T16:59:16+08:00 ] 127.0.0.1 /go/index.php/Home/Ask/__Controller__/add
+ERR: 非法操作:__Controller__
+
